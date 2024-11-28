@@ -12,7 +12,7 @@ Access via Google Docs: [https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEG
 utils/archive
 ```
 
-### Periodically
+### Periodic
 
 ```sh
 # export sheets as csv
@@ -32,4 +32,9 @@ utils/enrich_cieps
 ```sh
 # output list as json
 utils/parse2
+```
+
+```sh
+# output results as csv
+utils/unite
 ```
