@@ -27,7 +27,6 @@ utils/parse
 ```sh
 # enrich via json api
 utils/enrich_cieps
-utils/enrich_cieps_links
 ```
 
 ```sh
