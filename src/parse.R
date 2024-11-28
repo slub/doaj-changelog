@@ -1,11 +1,11 @@
-# nolint start: line_length_linter, brace_linter, object_length_linter, commented_code_linter.
+# nolint start: line_length_linter, commented_code_linter.
 
 #doaj_withdrawn <- readr::read_csv("https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/export?format=csv&gid=2104690845", show_col_types = FALSE, skip = 6)
 doaj_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_latest.csv", show_col_types = FALSE, skip = 6)
-doaj_withdrawn <- doaj_withdrawn[!apply(doaj_withdrawn, 1, function(row) { all(is.na(row)) }), ]
+doaj_withdrawn <- doaj_withdrawn[!apply(doaj_withdrawn, 1, function(row) all(is.na(row))), ]
 #doaj_withdrawn_archive <- readr::read_csv("https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZWXN8dUd02D4vL0Mov_kgYF8HORM/export?format=csv&gid=1650882189", show_col_types = FALSE, skip = 6)
 doaj_withdrawn_archive <- readr::read_csv("data/doaj_changelog_withdrawn_archive.csv", show_col_types = FALSE, skip = 6)
-doaj_withdrawn_archive <- doaj_withdrawn_archive[!apply(doaj_withdrawn_archive, 1, function(row) { all(is.na(row)) }), ]
+doaj_withdrawn_archive <- doaj_withdrawn_archive[!apply(doaj_withdrawn_archive, 1, function(row) all(is.na(row))), ]
 doaj_withdrawn <- rbind(doaj_withdrawn, doaj_withdrawn_archive)
 doaj_withdrawn$`Journal Title` <- gsub("^[[:space:]]|[[:space:]]$", "", doaj_withdrawn$`Journal Title`)
 doaj_withdrawn$Reason <- gsub("^[[:space:]]|[[:space:]]$", "", doaj_withdrawn$Reason)

@@ -1,4 +1,4 @@
-# nolint start: line_length_linter, brace_linter, object_length_linter, commented_code_linter.
+# nolint start: line_length_linter, commented_code_linter.
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
@@ -7,22 +7,17 @@ doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_li
 doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)` <- unlist(lapply(doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)`, function(x) {
   if (grepl("[[:digit:]]{1,2}-[[:alpha:]]{3,9}-20[12][[:digit:]]", x)) {
     format(as.Date(x, "%d-%B-%Y"), format = "%Y-%m-%d")
-  }
-  else if (grepl("12-Aug-0202", x, fixed = TRUE)) {
+  } else if (grepl("12-Aug-0202", x, fixed = TRUE)) {
     "2020-08-12"
-  }
-  else if (grepl("Q1, 2014", x, fixed = TRUE)) {
+  } else if (grepl("Q1, 2014", x, fixed = TRUE)) {
     "2014-03-31"
-  }
-  else if (grepl("[[:digit:]]{1,2}/[[:digit:]]{1,2}/[[:digit:]]{4}", x)) {
+  } else if (grepl("[[:digit:]]{1,2}/[[:digit:]]{1,2}/[[:digit:]]{4}", x)) {
     if (grepl("8/15/2016", x)) {
       "2016-08-15"
-    }
-    else {
+    } else {
       format(as.Date(x, "%d/%m/%Y"), format = "%Y-%m-%d")
     }
-  }
-  else {
+  } else {
     x
   }
 }))
