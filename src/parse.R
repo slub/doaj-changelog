@@ -11,7 +11,7 @@ doaj_withdrawn$`Journal Title` <- gsub("^[[:space:]]|[[:space:]]$", "", doaj_wit
 doaj_withdrawn$Reason <- gsub("^[[:space:]]|[[:space:]]$", "", doaj_withdrawn$Reason)
 doaj_withdrawn$ISSN <- gsub("^ | $| |﻿", "", doaj_withdrawn$ISSN)
 doaj_withdrawn$ISSN <- gsub(" (old ISSN: 2336-0313)", ", 2336-0313", doaj_withdrawn$ISSN, fixed = TRUE)
-readr::write_csv(doaj_withdrawn, "data/doaj_changelog_withdrawn_list.csv", na="")
+readr::write_csv(doaj_withdrawn, "data/doaj_changelog_withdrawn_list.csv", na = "")
 doaj_withdrawn_reason <- table(doaj_withdrawn$Reason)
 doaj_withdrawn_reason <- doaj_withdrawn_reason[order(doaj_withdrawn_reason, decreasing = TRUE)]
 doaj_withdrawn_reason_df <- setNames(as.data.frame(doaj_withdrawn_reason), c("Reason", "Count"))
