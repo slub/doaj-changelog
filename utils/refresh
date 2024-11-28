@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+today=$(date +%Y%m%d)
+#curl -sL "https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/export?format=csv&gid=0" > data/doaj_changelog_added_latest.csv
+curl -sL "https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/export?format=csv&gid=2104690845" > data/doaj_changelog_withdrawn_latest.csv

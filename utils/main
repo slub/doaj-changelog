@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+echo "Time started  :  "$(date)
+echo "Retrieve metadata via Google Docs..."
+utils/refresh
+echo "Extract ISSNs..."
+utils/parse
+echo "Retrieve ISSN-Ls and all related ISSNs..."
+utils/enrich_cieps
+utils/enrich_cieps_links
+echo "Extract all ISSNs..."
+utils/parse2
+# ...
+echo "Time finished :  "$(date)

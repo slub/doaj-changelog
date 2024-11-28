@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+Rscript src/parse2.R
