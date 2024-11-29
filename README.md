@@ -1,10 +1,10 @@
 # DOAJ Changelog
 
-The change logs of journals that have been withdrawn from the DOAJ do not contain any publisher information. The aim of this project is to enrich this information.
+The change log showing journals that have been withdrawn from the DOAJ do not contain any publisher information. The aim of this project is to enrich these.
 
 The final result of the enrichment process is available in [CSV](data/doaj_changelog_withdrawn_list_enriched_utf8.csv) and [XLSX](data/doaj_changelog_withdrawn_list_enriched_utf8.xlsx) format.
 
-Please note that these files are UTF-8 encoded and that there is also an [ASCII](data/doaj_changelog_withdrawn_list_enriched_ascii.csv) version of the CSV file. All characters outside the ASCII range are represented there with UTF-8 escape sequences.
+Please note that these files are UTF-8 encoded and that there is also an [ASCII](data/doaj_changelog_withdrawn_list_enriched_ascii.csv) version of the CSV file in which all characters outside the ASCII range are represented as Unicode escape sequences.
 
 ## Workflow
 
@@ -47,9 +47,9 @@ utils/unite
 ### DOAJ (Google Sheets)
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ([DOAJ Terms](https://doaj.org/terms/))  
-Access: [https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?gid=2104690845)  
+Access: [Google Docs](https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZWXN8dUd02D4vL0Mov_kgYF8HORM/edit#gid=1650882189) (2014–2024) / [Google Docs](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?gid=2104690845) (2024-)  
 
 ### CIEPS (JSON-LD)
 
 License: ...  
-Access: [https://portal.issn.org](https://portal.issn.org/)
+Access: [ISSN Portal](https://portal.issn.org/)
