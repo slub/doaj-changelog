@@ -44,10 +44,10 @@ utils/unite
 
 ## Data Sources
 
-### DOAJ (Google Sheets)
+### DOAJ (CSV)
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ([DOAJ Terms](https://doaj.org/terms/))  
-Access: [Google Docs](https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZWXN8dUd02D4vL0Mov_kgYF8HORM/edit#gid=1650882189) (2014–2024) / [Google Docs](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?gid=2104690845) (2024-)  
+Access: [Google Sheets](https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZWXN8dUd02D4vL0Mov_kgYF8HORM/edit#gid=1650882189) (2014–2024) / [Google Sheets](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?gid=2104690845) (2024-)  
 
 ### CIEPS (JSON-LD)
 
