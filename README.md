@@ -38,6 +38,11 @@ utils/parse2
 ```
 
 ```sh
+# enrich via json api
+utils/enrich_openalex
+```
+
+```sh
 # output results as csv
 utils/unite
 ```
@@ -52,4 +57,9 @@ Access: [Google Sheets](https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZ
 ### CIEPS (JSON-LD)
 
 License: ...  
-Access: [ISSN Portal](https://portal.issn.org/)
+Access: [ISSN Portal](https://portal.issn.org/)  
+
+### OpenAlex (JSON)
+
+License: [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en)  
+Access: [OpenAlex API](https://docs.openalex.org/)  

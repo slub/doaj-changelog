@@ -2,7 +2,7 @@
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
-# ...
+doaj_withdrawn_openalex <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_openalex.csv"), show_col_types = FALSE)
 
 doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)` <- unlist(lapply(doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)`, function(x) {
   if (grepl("[[:digit:]]{1,2}-[[:alpha:]]{3,9}-20[12][[:digit:]]", x)) {
@@ -62,10 +62,31 @@ doaj_withdrawn_target$all_issns <- unlist(lapply(doaj_withdrawn_target$`ISSN-L`,
   }
 }))
 
-# ...
+doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row) {
+  issns <- unique(unlist(strsplit(row[2], ", ")))
+  if (!is.na(row[6])) {
+    issns <- unique(c(unlist(strsplit(row[6], "[#|]")), issns))
+  }
+  issns <- issns[!is.na(issns)]
+  if (!identical(issns, logical(0))) {
+    issns <- unique(unlist(strsplit(issns, "[,#|]")))
+    publisher <- unlist(lapply(issns, function(x) {
+      doaj_withdrawn_openalex[grepl(x, doaj_withdrawn_openalex$issn) | grepl(x, doaj_withdrawn_openalex$issn_l), ]$publisher
+    }))
+    if (!identical(publisher, character(0))) {
+      paste(sort(unique(publisher)), collapse = "|")
+    } else {
+      NA
+    }
+  } else {
+    NA
+  }
+})
+
 
 doaj_withdrawn_target <- doaj_withdrawn_target[c(
   "Journal Title",
+  "publisher",
   "ISSN",
   "ISSN-L",
   "all_issns",
@@ -75,6 +96,7 @@ doaj_withdrawn_target <- doaj_withdrawn_target[c(
 
 names(doaj_withdrawn_target) <- c(
   "title",
+  "publisher",
   "issn",
   "issn_l",
   "issns",
@@ -88,13 +110,14 @@ readr::write_csv(doaj_withdrawn_target, "data/doaj_changelog_withdrawn_list_enri
 
 doaj_withdrawn_excel <- list(
   "doaj_withdrawn_target" = doaj_withdrawn_target,
-  "doaj_withdrawn_cieps" = doaj_withdrawn_cieps
+  "doaj_withdrawn_cieps" = doaj_withdrawn_cieps,
+  "doaj_withdrawn_openalex" = doaj_withdrawn_openalex
 )
 
 writexl::write_xlsx(doaj_withdrawn_excel, "data/doaj_changelog_withdrawn_list_enriched_utf8.xlsx")
 
 doaj_withdrawn_target$title <- iconv(doaj_withdrawn_target$title, from = "UTF-8", to = "ASCII", sub = "c99")
-# ...
+doaj_withdrawn_target$publisher <- iconv(doaj_withdrawn_target$publisher, from = "UTF-8", to = "ASCII", sub = "c99")
 
 readr::write_csv(doaj_withdrawn_target, "data/doaj_changelog_withdrawn_list_enriched_ascii.csv", na = "")
 
