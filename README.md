@@ -1,5 +1,11 @@
 # DOAJ Changelog
 
+The change logs of journals that have been withdrawn from the DOAJ do not contain any publisher information. The aim of this project is to enrich this information.
+
+The final result of the enrichment process is available in [CSV](data/doaj_changelog_withdrawn_list_enriched_utf8.csv) and [XLSX](data/doaj_changelog_withdrawn_list_enriched_utf8.xlsx) format.
+
+Please note that these files are UTF-8 encoded and that there is also an [ASCII](data/doaj_changelog_withdrawn_list_enriched_ascii.csv) version of the CSV file. All characters outside the ASCII range are represented there with UTF-8 escape sequences.
+
 ## Workflow
 
 ### One-time
