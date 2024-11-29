@@ -1,8 +1,5 @@
 # DOAJ Changelog
 
-License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ([DOAJ Terms](https://doaj.org/terms/))  
-Access via Google Docs: [https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?usp=sharing)  
-
 ## Workflow
 
 ### One-time
@@ -38,3 +35,15 @@ utils/parse2
 # output results as csv
 utils/unite
 ```
+
+## Data Sources
+
+### DOAJ (Google Sheets)
+
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ([DOAJ Terms](https://doaj.org/terms/))  
+Access: [https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E](https://docs.google.com/spreadsheets/d/1Kv3MbgFSgtSDnEGkA2JacrSjunRu0umHeZCtcMeqO5E/edit?gid=2104690845)  
+
+### CIEPS (JSON-LD)
+
+License: ...  
+Access: [https://portal.issn.org](https://portal.issn.org/)
