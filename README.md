@@ -1,6 +1,6 @@
 # DOAJ Changelog
 
-The change log showing journals that have been withdrawn from the [Directory of Open Access Journals](https://doaj.org/) (DOAJ) do not contain any publisher information. The aim of this project is to enrich these.
+The change log showing journals that have been withdrawn from the [Directory of Open Access Journals](https://doaj.org/) (DOAJ) does not contain any publisher information. The aim of this project is to enrich these.
 
 The final result of the enrichment process is available in [CSV](data/doaj_changelog_withdrawn_list_enriched_utf8.csv) and [XLSX](data/doaj_changelog_withdrawn_list_enriched_utf8.xlsx) format.
 
