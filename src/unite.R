@@ -45,22 +45,22 @@ doaj_withdrawn_target$`ISSN-L` <- unlist(lapply(doaj_withdrawn_target$ISSN, func
   }
 }))
 
-#doaj_withdrawn_target$all_issns <- unlist(lapply(doaj_withdrawn_target$`ISSN-L`, function(x) {
-#  if (!is.na(x)) {
-#    issns_l <- unique(unlist(strsplit(x, "[#|]")))
-#    all_issns <- unlist(lapply(x, function(y) {
-#      doaj_withdrawn_cieps_issns <- doaj_withdrawn_cieps[grepl(y, doaj_withdrawn_cieps$issn_l), ]$all_issns
-#      if (!identical(doaj_withdrawn_cieps_issns, character(0))) {
-#        paste(sort(unique(doaj_withdrawn_cieps_issns)), collapse = "|")
-#      } else {
-#        NA
-#      }
-#    }))
-#    paste(sort(unique(all_issns)), collapse = "#")
-#  } else {
-#    x
-#  }
-#}))
+doaj_withdrawn_target$all_issns <- unlist(lapply(doaj_withdrawn_target$`ISSN-L`, function(x) {
+  if (!is.na(x)) {
+    issns_l <- unique(unlist(strsplit(x, "[#|]")))
+    all_issns <- unlist(lapply(x, function(y) {
+      doaj_withdrawn_cieps_issns <- doaj_withdrawn_cieps[grepl(y, doaj_withdrawn_cieps$issn_l), ]$all_issns
+      if (!identical(doaj_withdrawn_cieps_issns, character(0))) {
+        paste(sort(unique(doaj_withdrawn_cieps_issns)), collapse = "|")
+      } else {
+        NA
+      }
+    }))
+    paste(sort(unique(all_issns)), collapse = "#")
+  } else {
+    x
+  }
+}))
 
 # ...
 
@@ -68,7 +68,7 @@ doaj_withdrawn_target <- doaj_withdrawn_target[c(
   "Journal Title",
   "ISSN",
   "ISSN-L",
-  #"all_issns",
+  "all_issns",
   "Date Removed (dd/mm/yyyy)",
   "Reason"
 )]
@@ -77,7 +77,7 @@ names(doaj_withdrawn_target) <- c(
   "title",
   "issn",
   "issn_l",
-  #"issns",
+  "issns",
   "date_removed",
   "reason"
 )
