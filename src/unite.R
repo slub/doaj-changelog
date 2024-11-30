@@ -1,4 +1,4 @@
-# nolint start: line_length_linter, commented_code_linter.
+# nolint start: line_length_linter.
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
@@ -69,7 +69,6 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
   }
   issns <- issns[!is.na(issns)]
   if (!identical(issns, logical(0))) {
-    issns <- unique(unlist(strsplit(issns, "[,#|]")))
     publisher <- unlist(lapply(issns, function(x) {
       doaj_withdrawn_openalex[grepl(x, doaj_withdrawn_openalex$issn) | grepl(x, doaj_withdrawn_openalex$issn_l), ]$publisher
     }))
@@ -82,7 +81,6 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
     NA
   }
 })
-
 
 doaj_withdrawn_target <- doaj_withdrawn_target[c(
   "Journal Title",
