@@ -15,8 +15,8 @@ for issn in issns:
     issn_l = []
     publisher = []
     publisher_id = []
-    in_core = []
-    in_doaj = []
+    is_core = []
+    is_in_doaj = []
     records = None
     req = Request(API_URL % issn)
     req.add_header("User-Agent", "slub/doaj-changelog mailto:bibliometrie@slub-dresden.de")
@@ -42,10 +42,10 @@ for issn in issns:
                                 publisher_id.append(host_organization)
                         if "issn_l" in record and record["issn_l"] not in issn_l:
                             issn_l.append(record["issn_l"])
-                        if "is_core" in record and str(record["is_core"]) not in in_doaj:
-                            in_core.append(str(record["is_core"]))
-                        if "is_in_doaj" in record and str(record["is_in_doaj"]) not in in_doaj:
-                            in_doaj.append(str(record["is_in_doaj"]))
+                        if "is_core" in record and str(record["is_core"]) not in is_core:
+                            is_core.append(str(record["is_core"]))
+                        if "is_in_doaj" in record and str(record["is_in_doaj"]) not in is_in_doaj:
+                            is_in_doaj.append(str(record["is_in_doaj"]))
                 else:
                     print("ISSN", issn, "could not be found in OpenAlex.")
         if records is not None:
@@ -53,9 +53,9 @@ for issn in issns:
             publisher_str = "|".join(publisher)
             publisher_id_str = "|".join(publisher_id)
             issn_l_str = "|".join(issn_l)
-            in_core_str = "|".join(in_core)
-            in_doaj_str = "|".join(in_doaj)
-            row = [id_str, issn, issn_l_str, in_doaj_str, in_core_str, publisher_id_str, publisher_str]
+            is_core_str = "|".join(is_core)
+            is_in_doaj_str = "|".join(is_in_doaj)
+            row = [id_str, issn, issn_l_str, is_in_doaj_str, is_core_str, publisher_id_str, publisher_str]
             if row not in metadata:
                 metadata.append(row)
     except HTTPError:
