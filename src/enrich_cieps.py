@@ -1,9 +1,6 @@
 import csv
 import json
 import issnpy
-import datetime
-
-today = datetime.date.today().strftime("%Y%m%d")
 
 with open("data/doaj_changelog_withdrawn_list_issns.json") as f:
     issns = json.load(f)
