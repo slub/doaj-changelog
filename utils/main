@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Time started  :  "$(date)
-echo "Retrieve metadata via Google Docs..."
+echo "Retrieve metadata via Google Sheets..."
 utils/refresh
 echo "Extract ISSNs..."
 utils/parse
