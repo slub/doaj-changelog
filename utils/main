@@ -10,4 +10,6 @@ echo "Extract all ISSNs..."
 utils/parse2
 echo "Enrich via OpenAlex..."
 utils/enrich_openalex
+echo "Create target data set..."
+utils/unite
 echo "Time finished :  "$(date)
