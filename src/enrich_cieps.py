@@ -26,7 +26,11 @@ for issn in issns:
                             pissns.append(related_issn["id"])
                         if related_issn["id"] not in allissns:
                             allissns.append(related_issn["id"])
+            eissns = list(set(eissns))
+            eissns.sort()
             eissns = "|".join(eissns)
+            pissns = list(set(pissns))
+            pissns.sort()
             pissns = "|".join(pissns)
             allissns = list(set(allissns))
             allissns.sort()
