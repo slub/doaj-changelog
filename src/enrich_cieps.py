@@ -5,13 +5,15 @@ import issnpy
 with open("data/doaj_changelog_withdrawn_list_issns.json") as f:
     issns = json.load(f)
 
+links = []
 metadata = [["issn", "issn_l", "eissn", "pissn", "all_issns"]]
 
 for issn in issns:
     record = issnpy.fetch(issn)
     if record is not None:
         link = record.get_issn_l()
-        if link is not None:
+        if link is not None and link not in links:
+            links.append(link)
             eissns = []
             pissns = []
             allissns = [issn, link]
