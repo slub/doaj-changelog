@@ -6,7 +6,7 @@ with open("data/doaj_changelog_withdrawn_list_issns.json") as f:
     issns = json.load(f)
 
 links = []
-metadata = [["issn", "issn_l", "eissn", "pissn", "all_issns"]]
+metadata = [["issn_l", "eissn", "pissn", "all_issns"]]
 
 for issn in issns:
     record = issnpy.fetch(issn)
@@ -37,7 +37,7 @@ for issn in issns:
             allissns = list(set(allissns))
             allissns.sort()
             allissns = "|".join(allissns)
-            metadata.append([issn, link, eissns, pissns, allissns])
+            metadata.append([link, eissns, pissns, allissns])
 
 with open("data/doaj_changelog_withdrawn_list_via_cieps.csv", "w") as f:
     writer = csv.writer(f)
