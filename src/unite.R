@@ -28,7 +28,7 @@ doaj_withdrawn_target$`ISSN-L` <- unlist(lapply(doaj_withdrawn_target$ISSN, func
     issns <- issns[unlist(lapply(issns, nchar)) == 9]
     issns <- sort(unique(issns))
     links <- sort(unique(unlist(lapply(issns, function(y) {
-      links_found <- sort(unique(doaj_withdrawn_cieps[grepl(y, doaj_withdrawn_cieps$issn), ]$issn_l))
+      links_found <- sort(unique(doaj_withdrawn_cieps[grepl(y, doaj_withdrawn_cieps$all_issns), ]$issn_l))
       if (!identical(links_found, character(0))) {
         paste(links_found, collapse = "#")
       } else {
