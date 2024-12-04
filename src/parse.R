@@ -14,8 +14,9 @@ doaj_withdrawn$ISSN <- gsub(" (old ISSN: 2336-0313)", ", 2336-0313", doaj_withdr
 readr::write_csv(doaj_withdrawn, "data/doaj_changelog_withdrawn_list.csv", na = "")
 doaj_withdrawn_reason <- table(doaj_withdrawn$Reason)
 doaj_withdrawn_reason <- doaj_withdrawn_reason[order(doaj_withdrawn_reason, decreasing = TRUE)]
-doaj_withdrawn_reason_df <- setNames(as.data.frame(doaj_withdrawn_reason), c("Reason", "Count"))
+doaj_withdrawn_reason_df <- setNames(as.data.frame(doaj_withdrawn_reason, stringsAsFactors = FALSE), c("Reason", "Count"))
 jsonlite::write_json(doaj_withdrawn_reason_df, "data/doaj_changelog_withdrawn_stats.json", auto_unbox = TRUE, pretty = 2)
+writeLines(sort(unique(doaj_withdrawn_reason_df$Reason)), "data/doaj_changelog_withdrawn_vocab.txt")
 
 doaj_withdrawn_issns <- unlist(strsplit(doaj_withdrawn$ISSN, ", "))
 doaj_withdrawn_issns <- doaj_withdrawn_issns[unlist(lapply(doaj_withdrawn_issns, nchar)) == 9]
