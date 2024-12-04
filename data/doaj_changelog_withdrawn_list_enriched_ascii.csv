@@ -1,10 +1,10 @@
 title,publisher,issn,issn_l,issns,date_removed,reason
-Institute of Eastern Europe and Central Asia,,2328-8280,,,2024-12-04,Journal not adhering to best practice
-"Revista de Investigaci\u00f3n, Formaci\u00f3n y Desarrollo",,1390-9681,,,2024-12-04,Journal not adhering to best practice
+Institute of Eastern Europe and Central Asia,IEECA,2328-8280,2328-8272,2328-8272|2328-8280,2024-12-04,Journal not adhering to best practice
+"Revista de Investigaci\u00f3n, Formaci\u00f3n y Desarrollo",,1390-9681,1390-9681,1390-9681|1390-9789,2024-12-04,Journal not adhering to best practice
 Science and Technology Indonesia,ARTS Publishing Corp.,2580-4391,2580-4405,2580-4391|2580-4405,2024-12-03,Journal not adhering to best practice
 Jurnal Ners dan Kebidanan,,2548-3811,2355-052X,2355-052X|2548-3811,2024-12-03,Journal not adhering to best practice
+ENT Updates,,2149-6498,2149-6498,2149-6498,2024-12-03,Journal not adhering to best practice
 Bioma,Universitas PGRI Semarang,2549-9890,2086-5481,2086-5481|2549-9890,2024-12-03,Journal not adhering to best practice
-ENT Updates,,2149-6498,,,2024-12-03,Journal not adhering to best practice
 \u0422\u043e\u0432\u0430\u0440\u043e\u0437\u043d\u0430\u0432\u0447\u0438\u0439 \u0432\u0456\u0441\u043d\u0438\u043a,,3041-1432,3041-1432,2310-5283|3041-1432,2024-12-02,Journal not adhering to best practice
 \u041d\u0430\u0443\u043a\u043e\u0432\u0438\u0439 \u0432\u0456\u0441\u043d\u0438\u043a \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0457 \u0430\u043a\u0430\u0434\u0435\u043c\u0456\u0457 \u0432\u043d\u0443\u0442\u0440\u0456\u0448\u043d\u0456\u0445 \u0441\u043f\u0440\u0430\u0432,,2786-7382,2786-7382,2410-3594|2786-7382,2024-12-02,Journal not adhering to best practice
 Interdisciplinary Cultural and Humanities Review,,2786-7129,2786-7110,2786-7110|2786-7129,2024-12-02,Journal not adhering to best practice
@@ -21,7 +21,7 @@ Revista Dynamis,,1982-4866,1982-4866,1982-4866,2024-12-02,Website URL no longer 
 \u041d\u0430\u0443\u0447\u043d\u044b\u0439 \u0432\u0435\u0441\u0442\u043d\u0438\u043a \u042e\u0436\u043d\u043e\u0433\u043e \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442\u0430 \u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442\u0430,Southern Institute of Management,2305-3100,2305-3100,2305-3100|2618-8112,2024-12-01,Changed publisher but hasn't supplied new URLs/site
 Jurnal Infotel,LPPM Institut Teknologi Telkom Purwokerto,2460-0997,2085-3688,2085-3688|2460-0997,2024-11-30,Website URL no longer works
 Issues in Social and Environmental Accounting,Sebelas Maret University,2460-6081,1978-0591,1978-0591|2460-6081,2024-11-30,Website URL no longer works
-Complex Systems Informatics and Modeling Quarterly,,2255-9922,,,2024-11-27,Website URL no longer works
+Complex Systems Informatics and Modeling Quarterly,Riga Technical University,2255-9922,2255-9922,2255-9922,2024-11-27,Website URL no longer works
 Biomedicine & Pharmacotherapy,Elsevier BV,1950-6007,0753-3322,0753-3322|1950-6007,2024-11-26,Journal not adhering to best practice
 Privredna Kretanja i Ekonomska Politika,"The Institute of Economics, Zagreb",1847-7860,1330-187X,1330-187X|1847-7860,2024-11-25,Ceased publishing
 Scholarly Assessment Reports,,2689-5870,2689-5870,2689-5870,2024-11-22,Ceased publishing
@@ -56,7 +56,7 @@ Nauka i Obrazovanie,MGTU im. N.\u00c8. Baumana,1994-0408,1994-0408,1994-0408,202
 Jurnal Lentera,,2540-7767,1693-6922,1693-6922|2540-7767,2024-11-05,Journal not adhering to best practice
 "Sustainability, Agri, Food and Environmental Research",Temuco Catholic University,0719-3726,0719-3726,0719-3726,2024-11-05,Ceased
 M\u00fctefekkir,Aksaray University,2148-8134,2148-8134,2148-5631|2148-8134,2024-11-04,Journal not adhering to best practice
-Revista CS,,2665-4814,,,2024-11-04,Journal not adhering to best practice
+Revista CS,Universidad Icesi,2665-4814,2011-0324,2011-0324|2665-4814,2024-11-04,Journal not adhering to best practice
 Revista de Marketing y Publicidad,Centro de Estudios Financieros,2792-405X,2659-3904,2659-3904|2792-405X,2024-10-31,Journal not adhering to best practice
 Revista Internacional de Principios y Pr\u00e1cticas del Dise\u00f1o,,2641-4406,2641-4406,2641-4406|2641-4414,2024-10-31,Journal not adhering to best practice
 Cuadernos.info,Pontifical Catholic University of Chile,0719-367X,0719-3661,0719-3661|0719-367X,2024-10-31,Journal not adhering to best practice
@@ -5497,7 +5497,7 @@ Journal of Intelligent Learning Systems and Applications,Scientific Research Pub
 Natural Science,Scientific Research Publishing,"2150-4091, 2150-4105",2150-4091,2150-4091|2150-4105,2015-06-26,Journal not adhering to Best practice
 iBusiness,Scientific Research Publishing,"2150-4075, 2150-4083",2150-4083,2150-4075|2150-4083,2015-06-26,Journal not adhering to Best practice
 Technology and Investment,Scientific Research Publishing,"2150-4059, 2150-4067",2150-4067,2150-4059|2150-4067,2015-06-26,Journal not adhering to Best practice
-Health,Scientific Research Publishing,"1949-4998, 1949-5005",1949-4998,1949-4998|1949-5005,2015-06-26,Journal not adhering to Best practice
+Health,Scientific Research Publishing,"1949-4998, 1949-5005",1949-4998,1949-4998,2015-06-26,Journal not adhering to Best practice
 Engineering,Scientific Research Publishing,"1947-3931, 1947-394X",1947-394X,1947-3931|1947-394X,2015-06-26,Journal not adhering to Best practice
 Communications and Network,Scientific Research Publishing,"1949-2421, 1947-3826",1947-3826,1947-3826|1949-2421,2015-06-26,Journal not adhering to Best practice
 Energy and Power Engineering,Scientific Research Publishing,"1949-243X, 1947-3818",1947-3818,1947-3818|1949-243X,2015-06-26,Journal not adhering to Best practice
