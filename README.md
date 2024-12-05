@@ -38,8 +38,8 @@ utils/parse2
 ```
 
 ```sh
-# enrich via json api
-utils/enrich_openalex
+# enrich via csv
+utils/enrich_crossref
 ```
 
 ```sh
@@ -59,7 +59,7 @@ Access: [Google Sheets](https://docs.google.com/spreadsheets/d/183mRBRqs2jOyP0qZ
 License: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) ([Terms](https://portal.issn.org/content/cgu))  
 Access: [ISSN Portal](https://portal.issn.org/)  
 
-### OpenAlex (JSON)
+### Crossref (CSV)
 
-License: [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  
-Access: [OpenAlex API](https://docs.openalex.org/)  
+License: “Facts, not subject to copyright” / [CC0](https://creativecommons.org/publicdomain/zero/1.0/) ([Terms](https://www.crossref.org/documentation/retrieve-metadata/rest-api/rest-api-metadata-license-information/))  
+Access: [Journal Coverage List](https://www.crossref.org/documentation/reports/browsable-title-list/)  

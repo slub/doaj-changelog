@@ -2,7 +2,7 @@
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
-doaj_withdrawn_openalex <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_openalex.csv"), show_col_types = FALSE)
+doaj_withdrawn_crossref <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_crossref.csv"), show_col_types = FALSE)
 
 doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)` <- unlist(lapply(doaj_withdrawn_target$`Date Removed (dd/mm/yyyy)`, function(x) {
   if (grepl("[[:digit:]]{1,2}-[[:alpha:]]{3,9}-20[12][[:digit:]]", x)) {
@@ -70,7 +70,7 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
   issns <- issns[!is.na(issns)]
   if (!identical(issns, logical(0))) {
     publisher <- unlist(lapply(issns, function(x) {
-      doaj_withdrawn_openalex[grepl(x, doaj_withdrawn_openalex$issn) | grepl(x, doaj_withdrawn_openalex$issn_l), ]$publisher
+      doaj_withdrawn_crossref[grepl(x, doaj_withdrawn_crossref$eissn) | grepl(x, doaj_withdrawn_crossref$pissn) | grepl(x, doaj_withdrawn_crossref$additionalIssns), ]$Publisher
     }))
     if (!identical(publisher, character(0))) {
       paste(sort(unique(publisher)), collapse = "|")
@@ -109,7 +109,7 @@ readr::write_csv(doaj_withdrawn_target, "data/doaj_changelog_withdrawn_list_enri
 doaj_withdrawn_excel <- list(
   "doaj_withdrawn_target" = doaj_withdrawn_target,
   "doaj_withdrawn_cieps" = doaj_withdrawn_cieps,
-  "doaj_withdrawn_openalex" = doaj_withdrawn_openalex
+  "doaj_withdrawn_crossref" = doaj_withdrawn_crossref
 )
 
 writexl::write_xlsx(doaj_withdrawn_excel, "data/doaj_changelog_withdrawn_list_enriched_utf8.xlsx")
