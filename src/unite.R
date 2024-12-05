@@ -1,4 +1,6 @@
-# nolint start: line_length_linter.
+# nolint start: line_length_linter, object_length_linter.
+
+source("src/reasons.R")
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
@@ -86,6 +88,14 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
 doaj_withdrawn_target_publisher <- sort(unique(doaj_withdrawn_target$publisher))
 jsonlite::write_json(doaj_withdrawn_target_publisher, "data/doaj_changelog_withdrawn_publisher.json", auto_unbox = TRUE, pretty = 2)
 writeLines(sort(unique(doaj_withdrawn_target_publisher)), "data/doaj_changelog_withdrawn_publisher.txt")
+
+doaj_withdrawn_target$Reason <- unlist(lapply(doaj_withdrawn_target$Reason, function(x) {
+  if (!is.na(x)) {
+    parse_reason(x)
+  } else {
+    x
+  }
+}))
 
 doaj_withdrawn_target <- doaj_withdrawn_target[c(
   "Journal Title",
