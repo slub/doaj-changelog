@@ -82,6 +82,10 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
   }
 })
 
+doaj_withdrawn_target_publisher <- sort(unique(doaj_withdrawn_target$publisher))
+jsonlite::write_json(doaj_withdrawn_target_publisher, "data/doaj_changelog_withdrawn_publisher.json", auto_unbox = TRUE, pretty = 2)
+writeLines(sort(unique(doaj_withdrawn_target_publisher)), "data/doaj_changelog_withdrawn_publisher.txt")
+
 doaj_withdrawn_target <- doaj_withdrawn_target[c(
   "Journal Title",
   "publisher",
