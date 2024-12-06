@@ -28,11 +28,12 @@ doaj_withdrawn_crossref_target <- doaj_withdrawn_crossref_df[, c(
   "additionalIssns"
 )]
 doaj_withdrawn_crossref_target <- doaj_withdrawn_crossref_target[order(doaj_withdrawn_crossref_target$JournalID), ]
+doaj_withdrawn_crossref_target[grepl("^$", doaj_withdrawn_crossref_target$Publisher), ] <- NA
 
-ISSN_PATTERN <- "([[:digit:]]{4})([[:digit:]]{3}[[:digit:]xX])"
-doaj_withdrawn_crossref_target$eissn <- gsub(ISSN_PATTERN, "\\1-\\2", doaj_withdrawn_crossref_target$eissn)
-doaj_withdrawn_crossref_target$pissn <- gsub(ISSN_PATTERN, "\\1-\\2", doaj_withdrawn_crossref_target$pissn)
-doaj_withdrawn_crossref_target$additionalIssns <- gsub(ISSN_PATTERN, "\\1-\\2", doaj_withdrawn_crossref_target$additionalIssns)
+issn_pattern <- "([[:digit:]]{4})([[:digit:]]{3}[[:digit:]xX])"
+doaj_withdrawn_crossref_target$eissn <- gsub(issn_pattern, "\\1-\\2", doaj_withdrawn_crossref_target$eissn)
+doaj_withdrawn_crossref_target$pissn <- gsub(issn_pattern, "\\1-\\2", doaj_withdrawn_crossref_target$pissn)
+doaj_withdrawn_crossref_target$additionalIssns <- gsub(issn_pattern, "\\1-\\2", doaj_withdrawn_crossref_target$additionalIssns)
 
 readr::write_csv(doaj_withdrawn_crossref_target, "data/doaj_changelog_withdrawn_list_via_crossref.csv", na = "")
 

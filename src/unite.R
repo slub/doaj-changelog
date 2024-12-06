@@ -76,7 +76,12 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
     }))
     if (!identical(publisher, character(0))) {
       publisher <- gsub("^\"|\"$", "", publisher)
-      paste(sort(unique(publisher)), collapse = "|")
+      publisher <- paste(sort(unique(publisher)), collapse = "|")
+      if (!grepl("^$", publisher)) {
+        publisher
+      } else {
+        NA
+      }
     } else {
       NA
     }
