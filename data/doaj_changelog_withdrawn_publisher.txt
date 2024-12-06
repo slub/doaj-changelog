@@ -212,10 +212,9 @@ Brazilian Journal of Natural Science
 Brazilian Society for Computational and Applied Mathematics
 Brazilian Society of Physical Activity and Sport
 Briefland
-Briefland|Medknow Publications
+Briefland|Wolters Kluwer
 Bright Publisher
 Brighthall
-Brill
 Brno University of Technology
 BRNSS Publication Hub
 Brock University Library
@@ -339,8 +338,7 @@ Czech University of Life Sciences Prague
 Czestochowa University of Technology
 Dalhousie Journal of Interdisciplinary Management
 Dartmouth College Library Press
-De Gruyter Poland Sp. z o.o.
-De Gruyter Poland Sp. z o.o.|Walter de Gruyter GmbH
+De Gruyter Brill
 Defence Scientific Information and Documentation Centre
 Definitive International Institute of Life Science (DIILI Publication)
 Department of Arabic Studies and Islamic Civilization
@@ -368,7 +366,6 @@ Dnipro State Medical University
 Dokuz Eylul University Graduate School of Socal Sciences
 DoNotEdit
 Dorma Trading Est
-Dove Medical Press
 Dr. D. Scientific Consulting
 Dr. Soetomo University
 Duzce Universitesi Bilim ve Teknoloji Dergisi
@@ -427,7 +424,7 @@ Eleyon Publishers
 Elmer Press, Inc.
 ELS Publishing Co. Limited
 Elsevier
-Elsevier|SAGE Publications
+Elsevier|SAGE
 Elsevier|SciELO
 Elsevier|The Korean Society of Nephrology
 EManuscript Services
@@ -555,7 +552,7 @@ Foundation Pro Scientia Publica
 Fraunhofer-Institut fur Materialfluss und Logistik
 Free International University of Moldova
 Friends Science Publishers
-Frontiers Media SA
+Frontiers
 FSBEI HE Voronezh State University of Engineering Technologies
 FSBSI Agricultural Research Center Donskoy
 FSFEI HE Don State Technical University
@@ -628,9 +625,6 @@ Healthcare Bulletin
 Herald Scholarly Open Access
 Higher Education and Oriental Studies
 Hikari, Ltd.
-Hindawi (International Scholarly Research Network)
-Hindawi Limited
-Hindawi Publishing Corporation (Sage-Hindawi Access to Research)
 Hipatia Press
 Historia Ambiental Latinoamericana y Caribena - HALAC
 Historia Oral
@@ -690,8 +684,6 @@ Indonesian Society Fisheries Product Processing
 Industrial and Organizational Psychology Association
 Influential Scholarly Research Publication
 INFOCOMP Journal of Computer Science
-Informa UK (Taylor & Francis)
-Informa UK (Taylor & Francis)|University of Technology, Sydney
 Informatics Publishing Limited
 Information Bulletin on Variable Stars (IBVS)
 Information Engineering Research Institute
@@ -1034,7 +1026,7 @@ Mattioli1885
 Maulana Malik Ibrahim State Islamic University
 Maxwell Scientific Publication Corp.
 McGill University Library and Archives
-MDPI AG
+MDPI
 Meandros Medical and Dental Journal
 Mebas Medikal Basin Yayin
 MECS Publisher
@@ -1046,7 +1038,6 @@ Medip Academy
 Mediprint
 Mediterranean BioMedical Journals
 Mediterranean Journal of Chemistry
-Medknow Publications
 Medpharm Publications
 Medsci Publications
 Mehmet Akif Ersoy Universitesi Veteriner Fakultesi Dergisi
@@ -1149,7 +1140,6 @@ Oriental Scientific Publishing Company
 Ormancilik Arastirma Dergisi
 OsloMet - Oslo Metropolitan University
 OU Scientific Route
-Ovid Technologies (Wolters Kluwer)  - Lippincott Williams & Wilkins
 Oxford University Press
 Ozcan Gungor
 P4M STIE Putra Bangsa
@@ -1348,7 +1338,7 @@ S. Karger AG
 Sachsische Landesbibliothek, Staats- und Universitatsbibliothek Dresden
 Sada Institute
 SAE Publications
-SAGE Publications
+SAGE
 Saint Petersburg State University
 Sakarya Universitesi Ilahiyat Fakultesi Dergisi
 Sakarya University Journal of Education
@@ -1468,10 +1458,8 @@ Southwest Journal of Pulmonary and Critical Care
 Southwest University Neofit Rilski
 SOYLEM Filoloji Dergisi
 Species Survival Commission
-Springer (Biomed Central Ltd.)
-Springer (Biomed Central Ltd.)|Wiley (John Wiley & Sons)
-Springer Fachmedien Wiesbaden GmbH
-Springer-Verlag
+Springer Nature
+Springer Nature|Wiley
 SPVS - Sociedade Portuguesa de Vida Selvagem
 SQS-lehti
 SRI Institute of Political and Mediametric Studies IPMS
@@ -1513,6 +1501,8 @@ Taras Shevchenko National University of Kyiv
 TathQeef Scientific Publishing
 Tavukculuk Arastirma Dergisi
 Tawasul International Centre for Publishing, Research and Dialogue
+Taylor & Francis
+Taylor & Francis|University of Technology, Sydney
 Te Pukenga
 Tech Science Press
 Technium Science
@@ -1927,7 +1917,6 @@ Ural State Mining University
 Ural State University of Architecture and Art
 Urban Planning Institute of the Republic of Slovenia
 Valley International
-Vandenhoeck & Ruprecht GmbH & Co, KG - V&R Unipress
 Vanderbilt University Library
 Vasile Alecsandri University of Bacau
 Verlag Holzhausen GmbH
@@ -1946,16 +1935,15 @@ VU E-Publishing
 Vytautas Magnus University
 Vytautas Magnus University Agriculture Academy
 Vytautas Magnus University Education Academy
-Walter de Gruyter GmbH
 Warsaw University of Life Sciences – SGGW Press
 West Indian Medical Journal
 West Pomeranian University of Technology, Szczecin
 Westerdijk Fungal Biodiversity Institute
 White Globe Publications
 Wichtig Publishing, SRL
-Wiley (Blackwell Publishing)|Wiley (The Physiological Society)
-Wiley (John Wiley & Sons)
+Wiley
 Winchester University Press
+Wolters Kluwer
 World Scholars
 World Scientific
 Wroclaw Medical University

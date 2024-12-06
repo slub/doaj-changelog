@@ -1,6 +1,7 @@
 # nolint start: line_length_linter, object_length_linter.
 
 source("src/reasons.R")
+source("src/publishers.R")
 
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
@@ -75,7 +76,7 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
       doaj_withdrawn_crossref[grepl(x, doaj_withdrawn_crossref$eissn) | grepl(x, doaj_withdrawn_crossref$pissn) | grepl(x, doaj_withdrawn_crossref$additionalIssns), ]$Publisher
     }))
     if (!identical(publisher, character(0))) {
-      publisher <- paste(sort(unique(publisher)), collapse = "|")
+      publisher <- paste(sort(unique(unlist(lapply(publisher, parse_publisher)))), collapse = "|")
       if (!grepl("^$", publisher)) {
         publisher
       } else {
