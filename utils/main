@@ -8,8 +8,8 @@ echo "Retrieve ISSN-Ls and all related ISSNs..."
 utils/enrich_cieps
 echo "Extract all ISSNs..."
 utils/parse2
-echo "Enrich via OpenAlex..."
-utils/enrich_openalex
+echo "Enrich via Crossref..."
+utils/enrich_crossref
 echo "Create target data set..."
 utils/unite
 echo "Time finished :  "$(date)
