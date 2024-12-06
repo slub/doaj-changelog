@@ -14,16 +14,10 @@ ceased_publication <- c(
   "Ceased",
   "Deactivated by current publisher",
   "Inactive",
-  "Incorrect Website URL",          # website_problems (?)
   "Journal ceased",
   "No issue published",
   "Other; no content",
-  "Other; taken offline",           # website_problems (?)
-  "stopped publishing",
-  "web site url no longer works",   # website_problems (?)
-  "Web site url no longer works",   # website_problems (?)
-  "Website URL no longer works",    # website_problems (?)
-  "Website URLs no longer work"     # website_problems (?)
+  "stopped publishing"
 )
 
 changed_publisher <- c(
@@ -43,7 +37,6 @@ not_open_access <- c(
   "licensing",
   "No longer OA",
   "No longer open access",
-  #"no longer works",                   # ???
   "not open access",
   "not Open Access",
   "Other; delayed open access",
@@ -52,14 +45,20 @@ not_open_access <- c(
 )
 
 website_problems <- c(
+  "Incorrect Website URL",
   "Malicious website",
-  "Other:website closed by publisher",  # ceased_publication (?)
+  "Other; taken offline",
+  "Other:website closed by publisher",
   "site not secure",
   "Site not secure",
   "site under reconstruction",
   "site unstable",
+  "web site url no longer works",
+  "Web site url no longer works",
   "Web site URL will change",
-  "Website URLs have security issues"
+  "Website URL no longer works",
+  "Website URLs have security issues",
+  "Website URLs no longer work"
 )
 
 other_reasons <- c(
