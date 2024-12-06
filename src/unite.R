@@ -75,7 +75,6 @@ doaj_withdrawn_target$publisher <- apply(doaj_withdrawn_target, 1, function(row)
       doaj_withdrawn_crossref[grepl(x, doaj_withdrawn_crossref$eissn) | grepl(x, doaj_withdrawn_crossref$pissn) | grepl(x, doaj_withdrawn_crossref$additionalIssns), ]$Publisher
     }))
     if (!identical(publisher, character(0))) {
-      publisher <- gsub("^\"|\"$", "", publisher)
       publisher <- paste(sort(unique(publisher)), collapse = "|")
       if (!grepl("^$", publisher)) {
         publisher

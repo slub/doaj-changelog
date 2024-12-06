@@ -3,6 +3,8 @@
 crossref_journals <- readr::read_csv("http://ftp.crossref.org/titlelist/titleFile.csv", show_col_types = FALSE)
 crossref_journals$eissn <- gsub("-", "", crossref_journals$eissn)
 crossref_journals$pissn <- gsub("-", "", crossref_journals$pissn)
+crossref_journals$Publisher <- gsub("^\"|\"$", "", crossref_journals$Publisher)
+crossref_journals$Publisher <- gsub("\"+", "\"", crossref_journals$Publisher)
 crossref_journals$additionalIssns <- gsub("-", "", crossref_journals$additionalIssns)
 crossref_journals_issns <- sort(unique(c(
   crossref_journals$eissn[!is.na(crossref_journals$eissn)],
