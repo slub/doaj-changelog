@@ -1,0 +1,44 @@
+---
+title: "DOAJ Changelog"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
+lang: "en-US"
+output:
+  html_document:
+    mathjax: null
+    keep_md: true
+    df_print: paged
+---
+```{r setup, include=F}
+# nolint start: line_length_linter, commented_code_linter.
+knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_knit$set(root.dir = "..")
+```
+
+```{r source-remote}
+doaj_journals <- readr::read_csv("https://doaj.org/csv", show_col_types = FALSE)
+```
+
+```{r source-local}
+doaj_journals_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_list_enriched_utf8.csv")
+```
+
+# Top 100 Publishers of Withdrawn Journals
+
+```{r doaj-publishers-withdrawn, rownames.print=F}
+doaj_publishers_withdrawn <- dplyr::count(doaj_journals_withdrawn, `publisher`, sort = TRUE, name = "Journal Count")
+doaj_publishers_withdrawn <- doaj_publishers_withdrawn[!is.na(doaj_publishers_withdrawn$publisher), ]
+dplyr::rename(doaj_publishers_withdrawn, `Publisher` = `publisher`)[1:100, ]
+```
+
+# Top 100 Publishers of Indexed Journals
+
+```{r doaj-publishers-indexed, rownames.print=F}
+doaj_publishers <- dplyr::count(doaj_journals, `Publisher`, sort = TRUE, name = "Journal Count")
+doaj_publishers[1:100, ]
+```
+
+---
+
+```{r linter-halt}
+# nolint end
+```

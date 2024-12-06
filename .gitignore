@@ -9,6 +9,8 @@ dev.*
 
 .~lock.*
 
+public/
+
 # ---------------------------------------------------------------------------- #
 
 # the following derives from Python.gitignore which can be found at:
