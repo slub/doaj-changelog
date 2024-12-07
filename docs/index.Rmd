@@ -24,16 +24,31 @@ doaj_journals_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_list_e
 
 # Top 100 Publishers of Withdrawn Journals
 
-```{r doaj-publishers-withdrawn, rownames.print=F}
-doaj_publishers_withdrawn <- dplyr::count(doaj_journals_withdrawn, `publisher`, sort = TRUE, name = "Journal Count")
-doaj_publishers_withdrawn <- doaj_publishers_withdrawn[!is.na(doaj_publishers_withdrawn$publisher), ]
-dplyr::rename(doaj_publishers_withdrawn, `Publisher` = `publisher`)[1:100, ]
+```{r doaj-publishers-withdrawn}
+doaj_publishers_withdrawn <- setNames(
+  as.data.frame(
+    table(doaj_journals_withdrawn$publisher), stringsAsFactors = FALSE
+  )[order(table(doaj_journals_withdrawn$publisher), decreasing = TRUE), ],
+  c("Publisher", "Journal Count")
+)
+```
+
+```{r doaj-publishers-withdrawn-display, rownames.print=F}
+doaj_publishers_withdrawn[1:100, ]
 ```
 
 # Top 100 Publishers of Indexed Journals
 
 ```{r doaj-publishers-indexed, rownames.print=F}
-doaj_publishers <- dplyr::count(doaj_journals, `Publisher`, sort = TRUE, name = "Journal Count")
+doaj_publishers <- setNames(
+  as.data.frame(
+    table(doaj_journals$Publisher), stringsAsFactors = FALSE
+  )[order(table(doaj_journals$Publisher), decreasing = TRUE), ],
+  c("Publisher", "Journal Count")
+)
+```
+
+```{r doaj-publishers-indexed-display, rownames.print=F}
 doaj_publishers[1:100, ]
 ```
 
