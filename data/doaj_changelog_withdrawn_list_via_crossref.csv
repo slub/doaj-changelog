@@ -52,7 +52,7 @@ JournalID,JournalTitle,Publisher,eissn,pissn,additionalIssns
 45139,Brazilian Journal of Physics,Springer-Verlag,0103-9733,0103-9733,1678-4448
 45358,Computational and Applied Mathematics,Springer-Verlag,1807-0302,0101-8205,2238-3603
 45359,Cadernos CEDES,SciELO,0101-3262,0101-3262,1678-7110
-45368,Estudos de Psicologia (Natal),Agência Rivera,1413-294X,1413-294X,
+45368,Estudos de Psicologia (Natal),Agência Rivera,1413-294X,1413-294X,1678-4669
 45378,Cadernos de Pesquisa,SciELO,0100-1574,0100-1574,1980-5314
 45379,Ciência & Saúde Coletiva,SciELO,1413-8123,1413-8123,1678-4561
 45600,Journal of the Brazilian Society of Mechanical Sciences and Engineering,Springer-Verlag,1678-5878,1678-5878,1806-3691
@@ -2420,6 +2420,7 @@ JournalID,JournalTitle,Publisher,eissn,pissn,additionalIssns
 298251,Biomed Data Journal,"Procon, Ltd.",2367-6477,,
 298274,REPOCS - Revista Pós Ciências Sociais,Universidade Federal do Maranhao,2236-9473,1983-4527,
 298283,Comunicata Scientiae,Lepidus Tecnologia,2177-5133,2176-9079,
+298291,Indonesian Journal of Forestry Research,Asosiasi Peneliti dan Teknisi Kehutanan dan Lingkungan Hidup Indonesia,2406-8195,2355-7079,
 298301,Acta Silvae et Ligni,Slovenian Forestry Institute,2335-3953,2335-3112,
 298302,Journal of Modern Human Pathology,Noble Research Publishers,2397-6845,,
 298312,Historia Ambiental Latinoamericana y Caribeña (HALAC) revista de la Solcha,Historia Ambiental Latinoamericana y Caribena - HALAC,2237-2717,2237-2717,
