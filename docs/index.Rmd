@@ -52,7 +52,7 @@ doaj_publishers_withdrawn[1:100, ]
 
 # Top 100 Publishers of Indexed Journals
 
-```{r doaj-publishers-indexed, rownames.print=F}
+```{r doaj-publishers-indexed}
 doaj_publishers <- setNames(
   as.data.frame(
     table(doaj_journals$Publisher), stringsAsFactors = FALSE
