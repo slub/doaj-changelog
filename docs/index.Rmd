@@ -22,6 +22,17 @@ doaj_journals <- readr::read_csv("https://doaj.org/csv", show_col_types = FALSE)
 doaj_journals_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_list_enriched_utf8.csv")
 ```
 
+```{r doaj-publisher-mapping}
+# Mapping by @MiWohlgemuth
+doaj_journals[grepl("Elsevier|KeAi Communications", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Elsevier"
+doaj_journals[grepl("Wiley|American Geophysical Union", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Wiley"
+doaj_journals[grepl("BMC|Springer|Nature Publishing|Nature Portfolio", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "SpringerNature"
+doaj_journals[grepl("Taylor & Francis|F1000 Research|Dove Medical", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Taylor & Francis"
+doaj_journals[grepl("Wolters Kluwer", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Wolters Kluwer"
+doaj_journals[grepl("SAGE|Sage Publishing", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "SAGE"
+doaj_journals[grepl("De Gruyter|Brill|Vandenhoeck|Sciendo", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "De Gruyter Brill"
+```
+
 # Top 100 Publishers of Withdrawn Journals
 
 ```{r doaj-publishers-withdrawn}
