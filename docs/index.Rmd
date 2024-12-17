@@ -29,7 +29,7 @@ doaj_journals[grepl("Wiley|American Geophysical Union", doaj_journals$Publisher,
 doaj_journals[grepl("BMC|Springer|Nature Publishing|Nature Portfolio", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Springer Nature"
 doaj_journals[grepl("Taylor & Francis|F1000 Research|Dove Medical", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Taylor & Francis"
 doaj_journals[grepl("Wolters Kluwer", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Wolters Kluwer"
-doaj_journals[grepl("SAGE|Sage Publishing", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "SAGE"
+doaj_journals[grepl("SAGE|Sage Publishing|Mary Ann Liebert", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "SAGE"
 doaj_journals[grepl("De Gruyter|Brill|Vandenhoeck|Sciendo", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "De Gruyter Brill"
 doaj_journals[grepl("MDPI", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "MDPI"
 doaj_journals[grepl("Frontiers Media", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "Frontiers"
