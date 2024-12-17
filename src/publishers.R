@@ -30,7 +30,8 @@ oxford <- c(
 )
 
 sage <- c(
-  "SAGE "
+  "SAGE ",
+  "Mary Ann Liebert"
 )
 
 springer_nature <- c(
