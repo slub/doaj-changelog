@@ -17,7 +17,7 @@
   },
   {
     "Reason": "Website URL no longer works",
-    "Count": 271
+    "Count": 276
   },
   {
     "Reason": "Inactive (has not published in the last calender year)",
@@ -25,7 +25,7 @@
   },
   {
     "Reason": "Journal not adhering to best practice",
-    "Count": 199
+    "Count": 209
   },
   {
     "Reason": "Journal is no longer Open Access",
@@ -33,7 +33,7 @@
   },
   {
     "Reason": "Inactive (has not published in the last calendar year)",
-    "Count": 107
+    "Count": 110
   },
   {
     "Reason": "Has not published enough articles this calendar year",
