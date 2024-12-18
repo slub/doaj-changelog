@@ -2,7 +2,7 @@
 
 # Mapping by @MiWohlgemuth
 
-bad_practice <- c(
+not_best_practice <- c(
   "adhere to best practice",
   "adhering to Best practice",
   "does not satisfy basic criteria",
@@ -10,7 +10,7 @@ bad_practice <- c(
   "Suspected editorial misconduct by society"
 )
 
-ceased_publication <- c(
+inactive_publication <- c(
   "Ceased",
   "Deactivated by current publisher",
   "Inactive",
@@ -79,8 +79,8 @@ other_reasons <- c(
 )
 
 reasons <- list(
-  "bad_practice" = paste0(bad_practice, collapse = "|"),
-  "ceased_publication" = paste0(ceased_publication, collapse = "|"),
+  "not_best_practice" = paste0(not_best_practice, collapse = "|"),
+  "inactive_publication" = paste0(inactive_publication, collapse = "|"),
   "changed_publisher" = paste0(changed_publisher, collapse = "|"),
   "not_enough_output" = paste0(not_enough_output, collapse = "|"),
   "not_open_access" = paste0(not_open_access, collapse = "|"),
@@ -89,8 +89,8 @@ reasons <- list(
 )
 
 reasons_out <- list(
-  "bad_practice" = "Journal not adhering to Best practice",
-  "ceased_publication" = "Journal is inactive",
+  "not_best_practice" = "Journal not adhering to Best practice",
+  "inactive_publication" = "Journal is inactive",
   "changed_publisher" = "Changed publisher",
   "not_enough_output" = "Journal has not published enough articles",
   "not_open_access" = "Journal is not open access",
