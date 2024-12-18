@@ -3,6 +3,10 @@
 source("src/reasons.R")
 source("src/publishers.R")
 
+locale <- Sys.getlocale("LC_TIME")
+on.exit(locale <- Sys.setlocale("LC_TIME", locale))
+locale_c <- Sys.setlocale("LC_TIME", "C")
+
 doaj_withdrawn_target <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list.csv"), show_col_types = FALSE)
 doaj_withdrawn_cieps <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_cieps.csv"), show_col_types = FALSE)
 doaj_withdrawn_crossref <- readr::read_csv(paste0("data/doaj_changelog_withdrawn_list_via_crossref.csv"), show_col_types = FALSE)
