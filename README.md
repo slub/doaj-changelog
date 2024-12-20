@@ -63,3 +63,13 @@ Access: [ISSN Portal](https://portal.issn.org/)
 
 License: “Facts, not subject to copyright” / [CC0](https://creativecommons.org/publicdomain/zero/1.0/) ([Terms](https://www.crossref.org/documentation/retrieve-metadata/rest-api/rest-api-metadata-license-information/))  
 Access: [Journal Coverage List](https://www.crossref.org/documentation/reports/browsable-title-list/)  
+
+## Licenses
+
+The code in this repository is made available under [GPL-3.0](LICENSE-CODE).
+
+The data in this repository is made available under [CC-BY-SA-4.0](LICENSE).
+
+## Acknowledgement
+
+We thank the [ISSN International Centre](https://www.issn.org/) for resolving the conflict between the licenses for their data and those of the DOAJ by waiving the NonCommercial (“NC”) element for this project.
