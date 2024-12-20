@@ -14,15 +14,15 @@ knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FA
 knitr::opts_knit$set(root.dir = "..")
 ```
 
-```{r source-remote}
+```{r source-remote, eval=F}
 doaj_journals <- readr::read_csv("https://doaj.org/csv", show_col_types = FALSE)
 ```
 
 ```{r source-local}
-doaj_journals_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_list_enriched_utf8.csv")
+doaj_journals_withdrawn <- readr::read_csv("data/doaj_changelog_withdrawn_list_enriched_utf8.csv", show_col_types = FALSE)
 ```
 
-```{r doaj-publisher-mapping}
+```{r doaj-publisher-mapping, eval=F}
 # Mapping by @MiWohlgemuth
 doaj_journals[grepl("Elsevier|KeAi Communications", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Elsevier"
 doaj_journals[grepl("Wiley|American Geophysical Union", doaj_journals$Publisher, ignore.case = TRUE), "Publisher"] <- "Wiley"
@@ -35,9 +35,44 @@ doaj_journals[grepl("MDPI", doaj_journals$Publisher, ignore.case = FALSE), "Publ
 doaj_journals[grepl("Frontiers Media", doaj_journals$Publisher, ignore.case = FALSE), "Publisher"] <- "Frontiers"
 ```
 
-# Top 100 Publishers of Withdrawn Journals
+# Plots
 
-```{r doaj-publishers-withdrawn}
+```{r doaj-withdrawn-plots-df}
+doaj_journals_withdrawn_plots <- doaj_journals_withdrawn[, c("title", "reason", "date_removed")]
+doaj_journals_withdrawn_plots$date_removed_year <- format(doaj_journals_withdrawn_plots$date_removed, "%Y")
+```
+
+```{r doaj-withdrawn-plots-count-per-year}
+ggplot2::ggplot(doaj_journals_withdrawn_plots, ggplot2::aes(x = date_removed_year)) + ggplot2::geom_bar() +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 0, vjust = 0.5, hjust = 1)) +
+  ggplot2::xlab("Year Withdrawn")  + ggplot2::ylab("Number of journals") + ggplot2::labs(title = "Journals withdrawn from DOAJ per Year")
+```
+
+```{r doaj-withdrawn-plots-count-per-year-and-reason}
+ggplot2::ggplot(doaj_journals_withdrawn_plots, ggplot2::aes(x = date_removed_year)) + ggplot2::geom_bar() + ggplot2::facet_grid(reason ~ .) +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 0, vjust = 0.5, hjust = 1)) +
+  ggplot2::xlab("Year Withdrawn")  + ggplot2::ylab("Number of journals") + ggplot2::labs(title = "Journals withdrawn from DOAJ per Reason and Year")
+```
+
+```{r doaj-withdrawn-plots-not-best-df}
+doaj_journals_withdrawn_select <- grepl("Journal not adhering to Best practice", doaj_journals_withdrawn$reason) & doaj_journals_withdrawn$publisher %in% c("SpringerNature", "Wiley", "Elsevier", "SAGE", "MDPI", "Oxford University Press", "De Gruyter Brill", "Taylor & Francis", "Wolters Kluwer", "Frontiers")
+doaj_journals_withdrawn_plots2 <- doaj_journals_withdrawn[doaj_journals_withdrawn_select, c("title", "issn_l", "date_removed", "reason", "publisher")]
+doaj_journals_withdrawn_plots2$date_removed_year <- format(doaj_journals_withdrawn_plots2$date_removed, "%Y")
+doaj_journals_withdrawn_plots2 <- dplyr::count(doaj_journals_withdrawn_plots2, publisher, date_removed_year)
+```
+
+```{r doaj-withdrawn-plots-not-best-count-per-publisher-and-year}
+ggplot2::ggplot(doaj_journals_withdrawn_plots2, ggplot2::aes(x = date_removed_year, y = n)) + ggplot2::geom_col() + ggplot2::facet_grid(publisher ~ .) +
+  ggplot2::geom_text(ggplot2::aes(x = date_removed_year, y = n, label = n), size = 2, vjust = -0.3, colour = "gray40") +
+  ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 0, vjust = 0.5, hjust = 1)) +
+  ggplot2::xlab("Year Withdrawn")  + ggplot2::ylab("Number of journals") + ggplot2::labs(title = "Journals withdrawn from DOAJ per Publisher and Year")
+```
+
+<!-- 
+# Top 100 Publishers of Withdrawn Journals
+-->
+
+```{r doaj-publishers-withdrawn, eval=F}
 doaj_publishers_withdrawn <- setNames(
   as.data.frame(
     table(doaj_journals_withdrawn$publisher), stringsAsFactors = FALSE
@@ -46,13 +81,15 @@ doaj_publishers_withdrawn <- setNames(
 )
 ```
 
-```{r doaj-publishers-withdrawn-display, rownames.print=F}
+```{r doaj-publishers-withdrawn-display, rownames.print=F, eval=F}
 doaj_publishers_withdrawn[1:100, ]
 ```
 
+<!--
 # Top 100 Publishers of Indexed Journals
+-->
 
-```{r doaj-publishers-indexed}
+```{r doaj-publishers-indexed, eval=F}
 doaj_publishers <- setNames(
   as.data.frame(
     table(doaj_journals$Publisher), stringsAsFactors = FALSE
@@ -61,7 +98,7 @@ doaj_publishers <- setNames(
 )
 ```
 
-```{r doaj-publishers-indexed-display, rownames.print=F}
+```{r doaj-publishers-indexed-display, rownames.print=F, eval=F}
 doaj_publishers[1:100, ]
 ```
 
