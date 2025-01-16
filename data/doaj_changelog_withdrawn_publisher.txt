@@ -79,6 +79,7 @@ Anadolu Klinigi Tip Bilimleri Dergisi
 Anadolu Universitesi Bilim ve Teknoloji Dergisi C : Yasam Bilimleri ve Biyoteknoloji
 Anadolu Universitesi Bilim ve Teknoloji Dergisi-A: Uygulamali Bilimler ve Muhendislik
 Anadolu University Journal of Science and Technology – B Theoretical Sciences
+Andromeda Publishing and Education Services
 Angle Publishing Co., Ltd.
 Anima Educação
 Ankara Universitesi Egitim Bilimleri Fakultesi Dergisi|Ankara University
@@ -272,6 +273,7 @@ Centro Ecuatoriano de Biotecnología del Ambiente
 Centro interdisciplinar de Pesquisa em Educacao e Direito CIPED
 Centro Interdisciplinario de Investigaciones en Psicologia Matematic
 Centro Universitario La Salle - UNILASALLE
+Cerebration Science Publishing Co., Limited
 Cesuca - Centro Ensino Superior de Cachoeirinha
 Cetus Publishing
 Cevre Koruma ve Arastirma Vakfi
@@ -316,6 +318,7 @@ Consejo Nacional de Educacion
 Consejo Nacional para la Enseñanza e Investigación en Psicología
 Conselho Nacional de Pesquisa e Pos-Graduacao em Direito - CONPEDI
 Consilium LLC
+Consilium Medicum
 CONSINTER
 Consortia Academia Publishing
 Consortium Erudit
@@ -386,6 +389,7 @@ E-MED LTD.
 East Carolina University
 EBPH Epidemiology, Biostatistics and Public Health
 ECO-Vector
+EconJournals
 Economic Consultant
 Economic Forum and Tovaroznavchiy visnik (Scientific Journals Publishing House)
 Ecototoxicology and Environmental Contamination
@@ -401,6 +405,7 @@ Editora Letra1
 Editora Letras do Cerrado da Universidade Federal de Catalão
 Editora Unijui
 Editorial Academica Dragon Azteca
+Editorial Committee of Annals of Thoracic and Cardiovascular Surgery
 Editorial Cuadernos de Sofia
 Editorial de la Universidad de Granada
 Editorial Espacios
@@ -490,6 +495,7 @@ European Centre for Minority Issues
 European Chemical Bulletin
 European Journal of Physics Education
 European Publishing
+European Respiratory Society
 European Scientific Institute, ESI
 European University Institute of Law
 Eurowaste SRL
@@ -675,7 +681,6 @@ Iktisadi Kalkinma ve Sosyal Arastirmalar Dernegi
 Ilahiyat Tetkikleri Dergisi
 ILIRIA International Review (IIR)
 Ilirias Research Institute
-Ilmi Etudler Dernegi - ILEM
 Ilmu Bersama Center
 Imperial Editora
 Independent Journal of Management and Production
@@ -704,6 +709,7 @@ Informing Science Institute
 INNOTEC Gestion
 Innovare Academic Sciences
 Innovative Journal
+Inonu Universitesi Hukuk Fakultesi Dergisi
 Inonu University Journal of the Faculty of Education
 Inovatus Usluge d.o.o.
 Insan Akademika Publications
@@ -861,6 +867,7 @@ Istanbul Journal of Sociological Studies
 Istanbul Umut Hareketi Dernegi
 Istanbul University
 ITESO, A.C.
+ITMO University
 IUScholarWorks
 Ivan Franko National University of Lviv
 Ivyspring International Publisher
@@ -936,6 +943,7 @@ KAREN - Karadeniz Arastirmalari Enstitusu Dergisi
 Kasetsart University Research and Development Institute
 Kasmera, Universidad del Zulia
 Kaunas University of Technology (KTU)
+Kazan Federal University
 Kemerovo State University
 Kennesaw State University, Horace W. Sturgis Library
 KenzPub
@@ -967,6 +975,7 @@ Kyiv National University of Construction and Architecture
 Labour Law Association
 Laikos Servicos Ltda
 Landes Bioscience
+Language Teaching and Educational Research
 Laplage em Revista
 LAR Center Press
 Larix International
@@ -1252,6 +1261,7 @@ Publicaciones Universidad de Alicante
 Publications Office of the European Union
 Publicidad Permanyer, SLU
 Publishing Center Dialog
+Publishing House 'Kluch-S'
 Publishing House ABV Press
 Publiverse Online S.R.L
 Purdue University (bepress)
@@ -1500,6 +1510,7 @@ STMIK Dharma Wacana
 Strategic Public Management Journal
 Studies and Scientific Researches. Economics Edition
 Suleyman Demirel Universitesi Egirdir Su Urunleri Fakultesi Dergisi
+Suleyman Demirel University Visionary Journal
 Summa Psicologica UST
 Sumy State University
 Sunan Gunung Djati State Islamic University of Bandung
@@ -1579,11 +1590,13 @@ TI Journals
 Tip Egitimi Dunyasi
 TMR Publishing Group
 Tokat Gaziosmanpasa University Faculty of Agriculture
+Tomsk State Pedagogical University
 Tomsk State University
 TR1010 Dergiler Birligi
 Trade Co-operative University of Moldova
 Trakia University
 Trakya Universitesi Edebiyat Fakultesi Dergisi
+Trakya Universitesi Sosyal Bilimler Dergisi
 Transactions of the VSB - Technical University of Ostrava, Civil Engineering Series
 Tribunal de Contas do Estado do Ceara
 Tribunal Permanente de Revisao do MERCOSUL
@@ -1615,6 +1628,7 @@ UIN Prof. K.H. Saifuddin Zuhri
 UIN Sumatera Utara Medan
 UIN Walisongo Semarang
 UINSI Samarinda
+UK Scientific Publishing Limited
 UK Zhende Publishing Limited Company
 Uluslararasi Dil, Edebiyat ve Kultur Arastirmalari Dergisi
 Uluslararasi Insan Bilimleri Dergisi
@@ -1826,6 +1840,7 @@ Universitas Pesantren Tinggi Darul Ulum (Unipdu)
 Universitas PGRI Madiun
 Universitas PGRI Mahadewa Indonesia
 Universitas PGRI Semarang
+Universitas PGRI Sumatera Barat
 Universitas Sebelas Maret
 Universitas Semarang
 Universitas Serang Raya

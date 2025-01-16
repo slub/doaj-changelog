@@ -1,11 +1,11 @@
 [
   {
     "Reason": "Journal not adhering to Best practice",
-    "Count": 2905
+    "Count": 2906
   },
   {
     "Reason": "Ceased publishing",
-    "Count": 854
+    "Count": 886
   },
   {
     "Reason": "Journal not adhering to Best Practice",
@@ -17,7 +17,7 @@
   },
   {
     "Reason": "Website URL no longer works",
-    "Count": 276
+    "Count": 283
   },
   {
     "Reason": "Inactive (has not published in the last calender year)",
@@ -25,11 +25,11 @@
   },
   {
     "Reason": "Journal not adhering to best practice",
-    "Count": 213
+    "Count": 238
   },
   {
     "Reason": "Journal is no longer Open Access",
-    "Count": 129
+    "Count": 130
   },
   {
     "Reason": "Inactive (has not published in the last calendar year)",
