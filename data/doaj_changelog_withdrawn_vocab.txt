@@ -1,12 +1,11 @@
 application form no info
 book reviews only
-Ceased
 Ceased publishing
 Ceased publishing, continued by 2164-9170
+Ceased publishing.
 Changed publisher
 Changed publisher but hasn't supplied new url:s/site
 Changed publisher but hasn't supplied new URLs/site
-Deactivated by current publisher
 Has not published enough articles
 Has not published enough articles in last calendar year
 Has not published enough articles in the last calendar year
@@ -40,7 +39,6 @@ Journal not adhering to Best practice
 Journal not adhering to Best Practice
 Journal not adhering to Best practice (one url per issue)
 Journal not adhering to Best practice and issn dead
-Journal not adhering to Best practice, Inactive
 Journal not adhering to Best practice, no response
 Journal not adhering to Best practice. Ceased publishing.
 journal not open access

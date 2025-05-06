@@ -1,15 +1,15 @@
 [
   {
     "Reason": "Journal not adhering to Best practice",
-    "Count": 2906
+    "Count": 2973
   },
   {
     "Reason": "Ceased publishing",
-    "Count": 886
+    "Count": 978
   },
   {
     "Reason": "Journal not adhering to Best Practice",
-    "Count": 463
+    "Count": 528
   },
   {
     "Reason": "Web site URL no longer works",
@@ -17,14 +17,14 @@
   },
   {
     "Reason": "Website URL no longer works",
-    "Count": 283
-  },
-  {
-    "Reason": "Inactive (has not published in the last calender year)",
-    "Count": 238
+    "Count": 327
   },
   {
     "Reason": "Journal not adhering to best practice",
+    "Count": 290
+  },
+  {
+    "Reason": "Inactive (has not published in the last calender year)",
     "Count": 238
   },
   {
@@ -33,15 +33,15 @@
   },
   {
     "Reason": "Inactive (has not published in the last calendar year)",
-    "Count": 110
+    "Count": 114
   },
   {
     "Reason": "Has not published enough articles this calendar year",
-    "Count": 42
+    "Count": 44
   },
   {
     "Reason": "Changed publisher but hasn't supplied new URLs/site",
-    "Count": 31
+    "Count": 34
   },
   {
     "Reason": "no licence",
@@ -220,19 +220,15 @@
     "Count": 1
   },
   {
-    "Reason": "Ceased",
-    "Count": 1
-  },
-  {
     "Reason": "Ceased publishing, continued by 2164-9170",
     "Count": 1
   },
   {
-    "Reason": "Changed publisher",
+    "Reason": "Ceased publishing.",
     "Count": 1
   },
   {
-    "Reason": "Deactivated by current publisher",
+    "Reason": "Changed publisher",
     "Count": 1
   },
   {
@@ -293,10 +289,6 @@
   },
   {
     "Reason": "Journal not adhering to Best practice and issn dead",
-    "Count": 1
-  },
-  {
-    "Reason": "Journal not adhering to Best practice, Inactive",
     "Count": 1
   },
   {

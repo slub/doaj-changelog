@@ -1,4 +1,3 @@
-"Medycyna Praktyczna" Spolka Jawna
 A.N.Severtsov Institute of Ecology and Evolution RAS  - IEE RAS
 Abant Izzet Baysal Universitesi Egitim Fakultesi Dergisi
 Aboriginal Policy Studies
@@ -15,6 +14,7 @@ Academy of Science of South Africa
 Academy of Taiwan Information Systems Research
 Academy Publication
 Academy Publisher
+AccScience Publishing
 ACG Publications
 ACT Publishing Group
 Acta Graphica
@@ -27,6 +27,7 @@ Advance Academic Publisher
 Advances in Hospitality and Tourism Research
 Advances in the Theory of Nonlinear Analysis and its Application
 Aesthetics Media Services
+Afonso Pena Academic Center
 African Journal of Biological Sciences
 African Journal of Political Sciences Publications
 African Journals Online
@@ -41,6 +42,7 @@ Airiti Press, Inc.
 AISTI
 AJIT-E Academic Journal of Information Technology
 Akademi Keperawatan Dharma Wacana
+Akademi Kepolisian Republik Indonesia
 Akademia Baru Publishing
 Akademia Nauk Stosowanych WSGE im. A. De Gasperi w Józefowie
 Akademiai Kiado Zrt.
@@ -67,6 +69,7 @@ American Institute of Physics
 American Mathematical Society
 American Nurses Association
 American Psychological Association
+American Society for Aesthetics
 American Society for Clinical Investigation
 American Society of Hematology
 American Thoracic Society
@@ -74,6 +77,7 @@ American-Eurasian Network for Scientific Information (AENSI)
 AMG Transcend Association
 AMH International Conferences and Seminars Organizing LLC
 Amp Complect Limited
+Amsterdam University Press
 Anadolu Journal of Agricultural Sciences
 Anadolu Klinigi Tip Bilimleri Dergisi
 Anadolu Universitesi Bilim ve Teknoloji Dergisi C : Yasam Bilimleri ve Biyoteknoloji
@@ -81,6 +85,7 @@ Anadolu Universitesi Bilim ve Teknoloji Dergisi-A: Uygulamali Bilimler ve Muhend
 Anadolu University Journal of Science and Technology – B Theoretical Sciences
 Andromeda Publishing and Education Services
 Angle Publishing Co., Ltd.
+Ani Publishing and Consulting Company
 Anima Educação
 Ankara Universitesi Egitim Bilimleri Fakultesi Dergisi|Ankara University
 Ankara Universitesi Egitim Bilimleri Fakultesi Ozel Egitim Dergisi
@@ -96,6 +101,7 @@ ANPAD
 Anser Press Pte. Ltd.
 AOA Academic Open Access Ltd.
 APESC - Associacao Pro-Ensino em Santa Cruz do Sul
+Apex Publishing
 Arachnologische Mitteilungen
 ARAN Ediciones
 Araucaria Comunicacao Integrada
@@ -134,6 +140,7 @@ Asociatia Romana de Pteridologie
 ASOS Yayinevi
 Asosiasi Peneliti dan Teknisi Kehutanan dan Lingkungan Hidup Indonesia
 Asosiasi Pengelola Publikasi Ilmiah Perguruan Tinggi PGRI
+ASPECT-PRO LTD
 Associacao Brasileira da Rede Unida
 Associacao Brasileira De Agroecologia
 Associacao Brasileira de Medicina e Cirurgia do Tornozelo e Pe (ABTPe)
@@ -145,6 +152,7 @@ Associacao Prudentina de Educacao e Cultura
 Associació Catalana de Meteorologia (ACAM)
 Association for Learning Development in Higher Education
 Association for Promotion of Holistic Approach to Environment
+Association for the Advancement of Computing in Education
 Association for the Advancement of Psychological Science
 Association for the Development of Early Childhood Education in Turkey
 Association of Computer, Communication and Education for National Triumph Social and Welfare Society (ACCENTS)
@@ -224,13 +232,13 @@ Brazilian Journals - Reflexao Academica
 Brazilian Society for Computational and Applied Mathematics
 Brazilian Society of Physical Activity and Sport
 Brieflands
-Brieflands|Wolters Kluwer
 Bright Publisher
 Brighthall
 Brno University of Technology
 BRNSS Publication Hub
 Brock University Library
 BSNV College Lucknow
+Bunin Yelets State University
 Bureau of Labor Statistics
 Business and Economics Research Journal
 CAB PUBLISHER
@@ -250,7 +258,9 @@ Castledown Publishers
 Catholic Theological Union
 CBU Research Institute s.r.o.
 CEF. Centro de Estudios Financieros
+CEGOT - Center of Studies on Geography and Spatial Planning
 Center for Governance and Culture in Europe
+Center for Hellenic Studies
 Center for Journal Management and Publication, Lambung Mangkurat University
 Center for Strategic Studies in Business and Finance SSBFNET
 Center for Transportation Studies
@@ -260,6 +270,7 @@ Center of Physical Chemical Methods of Research and Analysis
 Centers for Disease Control and Prevention
 Centivens Institute of Innovative Research
 Central Council for Research in Homoeopathy
+Central Research Institute for Agriculture
 Centre for Business and Economic Research
 Centre for Evaluation in Education and Science
 Centre for Resilience and Socio-Emotional Health, University of Malta
@@ -268,10 +279,12 @@ Centro de Ensino Unificado de Brasilia
 Centro de Estudios e Investigaciones para el Desarrollo Docente - CENID
 Centro de Estudos em Geopolitica e Realcoes Internacionais (CENEGRI)
 Centro de Estudos Geograficos (IGOT) Universidade de Lisboa
+Centro de Investigacion sobre Desarrollo Humano y Sociedad (Coideso)
 Centro de Investigaciones Sociologicas
 Centro Ecuatoriano de Biotecnología del Ambiente
 Centro interdisciplinar de Pesquisa em Educacao e Direito CIPED
 Centro Interdisciplinario de Investigaciones en Psicologia Matematic
+Centro Universitario de Maringa
 Centro Universitario La Salle - UNILASALLE
 Cerebration Science Publishing Co., Limited
 Cesuca - Centro Ensino Superior de Cachoeirinha
@@ -285,6 +298,7 @@ Chemical Engineering Department, Syiah Kuala University
 Chemical Science Transactions
 Chempublishers
 Cherkas Global University
+Cherkasy State Technological University journals (Scientific Journals Publishing House)
 Chimera Innova Group
 China Science Publishing & Media Ltd.
 Chinese Institute of Automation Engineers
@@ -306,6 +320,7 @@ Coimbra University Press
 Colegio de Medicos y Cirujanos de Costa Rica
 Colegio Mayor de Nuestra Senora del Rosario
 College of Graduate Studies, Walailak University
+College of Science for Women, University of Baghdad
 Columbia University Libraries
 Commagene Journal of Biology
 Common Ground Research Networks
@@ -323,6 +338,7 @@ CONSINTER
 Consortia Academia Publishing
 Consortium Erudit
 Constantine the Philosopher University in Nitra
+Constitutional Court of the Republic of Indonesia
 Coordenacao de Publicacoes da Editora do Instituto Federal de Brasilia
 Copernicus GmbH
 Cordoba University Press
@@ -346,6 +362,7 @@ Cumhuriyet Medical Journal
 Cumhuriyet University Faculty of Dentistry
 Cumhuriyet University Sciences Journal
 Cureus, Inc.
+CV. Afdifal Maju Berkah
 CV. Radja Publika
 Czech Technical University in Prague - Central Library
 Czech University of Life Sciences Prague
@@ -366,6 +383,7 @@ Department of Zoology, University of Cambridge
 Det Kgl. Bibliotek/Royal Danish Library
 Deutscher Arzte-Verlag GmbH
 Dialogo das Letras - Universidade do Estado do Rio Grande do Norte
+Dialogues
 Dicle Medical Journal/Dicle Tip Dergisi
 Digital Journal of Opthamology
 Dil Egitimi ve Arastirmalari Dergisi
@@ -404,6 +422,7 @@ Editora e Distribuidora Educacional
 Editora Letra1
 Editora Letras do Cerrado da Universidade Federal de Catalão
 Editora Unijui
+Editorial  Group - Las Tunas University
 Editorial Academica Dragon Azteca
 Editorial Committee of Annals of Thoracic and Cardiovascular Surgery
 Editorial Cuadernos de Sofia
@@ -475,6 +494,7 @@ Escuela Superior Politecnica de Chimborazo
 Eskisehir Osmangazi Universitesi Ilahiyat Fakultesi Dergisi at Eskisehir Osmangazi University
 Eskisehir Osmangazi University Journal of Social Sciences
 Eskisehir Turk Dunyasi Uygulama ve Arastirma Merkezi Halk Sagligi Dergisi
+Esmon Publicidad, SA|SciELO Espana/Repisalud
 Espacios en Blanco (EB)
 Espirales Revista Multidisciplinaria de Investigacion
 Estonian Academy Publishers
@@ -484,11 +504,13 @@ Etflin
 EthnoAnthropoZoom, Ss.Cyril and Methodius University, Skopje
 Eurasia Academic Publishing Group
 Eurasian Journal of Applied Linguistics
+Eurasian Journal of Soil Science
 Eurasian Publications
 Eurasian Research Institute
 Eurasian Society of Educational Research
 Eurasian Society of Educational Research|Gazi Publishing
 Eurasian Society of Family Medicine
+Euro-Mediterranean University
 EUROKD Egitm Danismanlik Group
 European Cells and Materials
 European Centre for Minority Issues
@@ -504,6 +526,7 @@ Exact Sciences Department, Banat's Journal of Biotechnology
 ExcelingTech
 Expressao Catolica
 Faculdade Batista Pioneira
+Faculdade de Medicina de Sao Jose do Rio Preto - FAMERP
 Faculdade Evangélica de Valparaíso
 Faculdade Luterana de Teologia
 Faculdades EST
@@ -528,13 +551,13 @@ Faculty of Medicine Siriraj Hospital, Mahidol University
 Faculty of Medicine Universitas Indonesia
 Faculty of Medicine, Universitas Indonesia
 Faculty of Montenegrin Language and Literature
+Faculty of Pharmacy Cairo University
 Faculty of Philology, University of Belgrade
 Faculty of Philosophy, University of Novi Sad
 Faculty of Physical Education and Sports, Alexandru Ioan Cuza - University of IASI, Romania
 Faculty of Sociology, Lomonosov Moscow State University
 Faculty of Technical Sciences
 Faculty of Veterinary Medicine, Syiah Kuala University (IVMA)
-Fakultas Ekonomi dan Bisnis Universitas Indonesia
 Fakultas Hukum Universitas Pattimura
 Fakultas Ilmu Sosial dan Ilmu Politik Universitas Hasanuddin
 Fakultas Kedokteran Universitas Sriwijaya
@@ -543,6 +566,7 @@ Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Hasanuddin
 Fakultas MIPA Universitas Negeri Makassar
 Fakultas MIPA Universitas Tadulako Palu
 Fakultas Sains dan Teknologi, Unira Malang
+Family Practice and Palliative Care
 Farname, Inc.
 Federacao das Sociedades Portuguesas de Obstetricia e Ginecologia
 Federacion Latinoamericana de Sociedades Cienti­ficas de Estudiantes de Medicina (FELSOCEM)
@@ -562,16 +586,19 @@ Florida State University College of Medicine
 Foreningen Lambda Nordica
 Forestry Department, University of Muhammadiyah Makassar
 Forschungsinstitut Freie Berufe
+Forschungszentrum Julich, Zentralbibliotek
 ForScience: Revista Cientifica do IFMG
 Fortune Journals
 Forum Ilmiah Kesehatan - Forikes
 Foundation for the Development of Bone Marrow Transplantation
 Foundation of Nursing Studies
 Foundation Pro Scientia Publica
+Franco Angeli
 Fraunhofer-Institut fur Materialfluss und Logistik
 Free International University of Moldova
 Friends Science Publishers
 Frontiers
+FSAEIHE South Ural State University (National Research University)
 FSBEI HE Voronezh State University of Engineering Technologies
 FSBSI Agricultural Research Center Donskoy
 FSFEI HE Don State Technical University
@@ -603,6 +630,7 @@ G. Giappichelli Editore srl
 Galatasaray Universitesi Iletisim
 Galenos Yayinevi
 Galenos Yayinevi|ScopeMed
+Galoa Events Proceedings
 Geist Science, Iqra University
 Gemilang Maju Publikasi Ilmiah (GMPI)
 General Jonas Zemaitis Military Academy of Lithuania
@@ -630,6 +658,7 @@ Grupo Editorial Psicofundación
 Grupo Verde de Agroecologia e Abelhas
 H. S. Skovoroda Kharkiv National Pedagogical University
 HACCP Consulting
+Hacettepe University Faculty of Health Sciences Journal
 Hadith
 Hamad bin Khalifa University Press (HBKU Press)
 Hanif Medisiana Publisher
@@ -641,6 +670,7 @@ HATASO Enterprises LLC
 Hatay Mustafa Kemal University Faculty of Medicine
 Health Promotion and Chronic Disease Prevention Branch (HPCDP) Public Health Agency of Canada
 Healthcare Bulletin
+Hellenic Regulatory Body of Nurses
 Herald Scholarly Open Access
 Higher Education and Oriental Studies
 Hikari, Ltd.
@@ -649,6 +679,8 @@ Historia Ambiental Latinoamericana y Caribena - HALAC
 Historia Oral
 Holy Spirit University of Kaslik
 HORS Publishing House, LLC
+Horticultural Studies (Hortis)
+Hrvatsko filolosko drustvo (Croatian Philological Society)
 Human Resource Management Academic Research Society
 Humanities Perspectives Limited
 I MED Research Publications
@@ -681,8 +713,10 @@ Iktisadi Kalkinma ve Sosyal Arastirmalar Dernegi
 Ilahiyat Tetkikleri Dergisi
 ILIRIA International Review (IIR)
 Ilirias Research Institute
+Ilmi Etudler Dernegi - ILEM
 Ilmu Bersama Center
 Imperial Editora
+IMR Press
 Independent Journal of Management and Production
 Index Copernicus International
 Index Journal
@@ -734,6 +768,7 @@ Institute for Development and International Relations
 Institute for Human Rehabilitation
 Institute for Operations Research and the Management Sciences
 Institute for Policy Studies and Social Innovation, University of Hyogo
+Institute for Problems in Mechanical Engineering of the Russian Academy of Sciences - IPME RAS
 Institute for the Development of Education of the Krasnodar Region
 Institute of Advanced Engineering and Science
 Institute of Archaeology
@@ -765,12 +800,13 @@ Instituto de Investigaciones Filologicas
 Instituto de Investigaciones Filosóficas
 Instituto de Pesquisa Economica Aplicada - IPEA
 Instituto de Treinamento e Pesquisa em Gestalt Terapia
-Instituto Educacional Piracicabano da Igreja Metodista
 Instituto Federal de Educacao Ciencia e Tecnologia do Rio de Janeiro - IFRJ
 Instituto Integrado de Ciencia e Tecnologia - IN2
 Instituto Metodista de Ensino Superior
+Instituto Metodista de Servicos Educacionais
 Instituto Metodista Izabela Hendrix
 Instituto Nacional de Cancerologia
+Instituto Nacional de Educação de Surdos
 Instituto Nacional de Medicina Legal y Ciencias Forenses
 Instituto para o Desenvolvimento da Educacao
 Instituto Politecnico Nacional
@@ -784,9 +820,9 @@ Integrated Publishing Association
 Interdisciplinary Publishing Academia
 International Academic Press
 International Academy Publishing  (IAP)
-International Association for Digital Transformation and Technological Innovation
 International Association for Educators and Researchers (IAER)
 International Association of Chinese Professionals in Global Positioning Systems
+International Association of e-Navigation and Ocean Economy
 International Association of Engineering and Technology
 International Association of Online Engineering
 International Cardiovascular Forum Journal
@@ -832,9 +868,9 @@ International Journal of Pure and Applied Sciences
 International Journal of Research and Development in Pharmacy and Life Sciences (IJRDPL)
 International Journal of Social Science Research and Review
 International Journal of Sport Education, Exercise and Training Science
+International Journal of Sustainable Lighting
 International Journal of Transpersonal Studies
 International Journal of Women's Health and Reproduction Studies
-International Medical Publisher (Fundacion de Neurociencias)
 International Medical University
 International Online Journal of Educational Sciences
 International Organization of Scientific Research
@@ -844,6 +880,7 @@ International Research and Publishing Academy
 International Scientific Information, Inc.
 International Scientific Network
 International Scientific Research Publications MY SDN. BHD.
+International Society for Problem-Based Learning
 International Society of Communication and Development Between Universities (ISCDBU)
 International Society of Philosophy and Cosmology
 International Tennis Federation
@@ -851,17 +888,21 @@ International University of Sarajevo
 Internet Scientific Publishers, LLC
 Intersecciones en Antropologia (IEA)
 IntSys Research
+Invepy y Asociados S.C.
 Ioannis Karkatzoulis Ltd
 IOP Publishing
+IOS Press
 IP Innovative Publication Pvt Ltd
 Iran Calismalari Dergisi
 Iraqi Journal for Electrical and Electronic Engineering (IJEEE)
 Irish College of Paramedics
 Irkutsk National Research Technical University
+Islamia College Peshawar - Department of Psychology
 Islamic Medical Association of North America
 Isletme Ekonomi ve Yonetim Arastirmalari Dergisi
 ISPACS GmbH
 Israel Antiquities Authority
+Istanbul Aydin University
 Istanbul Gelisim University Journal of Social Sciences
 Istanbul Journal of Sociological Studies
 Istanbul Umut Hareketi Dernegi
@@ -870,19 +911,23 @@ ITESO, A.C.
 ITMO University
 IUScholarWorks
 Ivan Franko National University of Lviv
+Ivano-Frankivsk National Technical University of Oil and Gas (Scientific Journals Publishing House)
 Ivyspring International Publisher
 Izmir Iktisat Dergisi
 Jana Publication and Research LLP
 Japan Atherosclerosis Society
 Japan Laser Processing Society
 Japan Society of Civil Engineers
+Japan Society of Smooth Muscle Research
 Japanese Society for Root Research
+Javna ustanova u kulturi Zvonimir Solin
 Jaypee Brothers Medical Publishing
 Jomard Publishing
 Journal Agriculture and Forestry
 Journal and Article Management System
 Journal for Educating Gifted Young Scientists (JEGYS)
 Journal of Academic Inquiries
+Journal of Aging and Innovation
 Journal of Agricultural Informatics
 Journal of Agricultural Production
 Journal of Algebra Combinatorics Discrete Structures and Applications - iPeak Academy Ltd.
@@ -894,6 +939,7 @@ Journal of Chinese Pharmaceutical Sciences
 Journal of Computer and Education Research
 Journal of Cukurova University Faculty of Economics and Administrative Sciences, Cukurova University
 Journal of Dentistry Indonesia
+Journal of e-Democracy and Open Government
 Journal of Eastern European and Central Asian Research
 Journal of Engineering
 Journal of Engineering Technology and Applied Science
@@ -905,6 +951,7 @@ Journal of Hyperspectral Remote Sensing
 Journal of Information Architecture
 Journal of Injury and Violence Research
 Journal of Interaction Science
+Journal of Learning and Teaching in Digital Age
 Journal of Limnology and Freshwater Fisheries Research
 Journal of Livestock Science
 Journal of Management Economics Literature Islamic and Political Science
@@ -912,7 +959,6 @@ Journal of Military and Information Scicence
 Journal of Molecular Signaling
 Journal of Narrative and Language Studies (NALANS)
 Journal of Naval Sciences and Engineering (JNSE) Turkish Naval Academy (Deniz Harp Okulu)
-Journal of Neonatal Surgery
 Journal of Nepal Medical Association (JNMA)
 Journal of Ners and Midwifery
 Journal of Pedagogical Research
@@ -931,6 +977,7 @@ Journal Sovremennye Tehnologii v Medicine
 JScholar Publishers
 JSS Academy of Higher Education & Research
 JSTOR
+Juraj Dobrila University of Pula
 Jurnal Gizi dan Pangan/Journal of Nutrition and Food
 Jurnalul de Chirurgie Journal of Surgery
 JVE International Ltd.
@@ -942,6 +989,7 @@ Kare Publishing
 KAREN - Karadeniz Arastirmalari Enstitusu Dergisi
 Kasetsart University Research and Development Institute
 Kasmera, Universidad del Zulia
+Kastamonu Egitim Dergisi
 Kaunas University of Technology (KTU)
 Kazan Federal University
 Kemerovo State University
@@ -950,24 +998,31 @@ KenzPub
 Keskiajan tutkimuksen seura Glossa ry
 Kezana LLC FZ
 Kharkiv National Automobile and Highway University
+Kharkiv National University of Radioelectronics
 Kharkivskyi NUE
 Khazar University Press
 Kherson National Technical University
 Khmelnytskyi National University
 Khyber Medical University
 Kiban Research Publications
+Kirklareli University Faculty of Economics and Administrative Sciences
 Klinik Psikoloji Arastirmalari Dernegi
+KMAN Publication Incorporation
 Knowledge E DMCC
 Kocaeli Universitesi Saglik Bilimleri Dergisi
 Komitet Redakcyjno - Wydawniczy Polskiego Towarzystwa Psychiatrycznego
+Komsomolsk-na-Amure State Technical Unversity
+Konsorsium Psikologi Ilmiah Nusantara
 Konuralp Medical Journal
 Koordinatorat Perguruan Tinggi Keagamaan Islam Swasta Wilayah IV Surabaya
 Korea Distribution Science Association
 Korea Ocean Research and Development Institute
+Korean Society for Thoracic and Cardiovascular Surgery
 Korean Society of Occupational & Environmental Medicine
 Kosuyolu Heart Journal, Health Sciences University
 Kozminski University
 KROS Publications
+Krupanidhi Educational Trust
 KSU Journal of Agriculture and Nature
 Kuban State Agrarian University
 Kuramsal Egitimbilim Dergisi
@@ -1003,6 +1058,7 @@ Lithuanian Research Centre for Agriculture and Forestry
 LLC CPC Business Perspectives
 LLC Landreil
 LLC Science and Innovations
+lnternational Electronic Journal of Elementary Education
 LookUs Bilisim A.S.
 Loyola Marymount University
 LP2M - UM Banjarmasin
@@ -1046,6 +1102,7 @@ Matej Bel University in Banska Bystrica
 Mathematical Sciences Publishers
 Mattioli1885
 Maulana Malik Ibrahim State Islamic University
+Maximum Academic Press
 Maxwell Scientific Publication Corp.
 McGill University Library and Archives
 MDPI
@@ -1062,8 +1119,10 @@ Mediterranean BioMedical Journals
 Mediterranean Journal of Chemistry
 Medpharm Publications
 Medsci Publications
+Medycyna Praktyczna" Spolka Jawna
 Mehmet Akif Ersoy Universitesi Veteriner Fakultesi Dergisi
 Mehmet Dursun Erdem
+Mersin Universitesi Saglik Bilimleri Dergisi
 Mersin Universitesi Tip Fakultesi Lokman Hekim Tip Tarihi ve Folklorik Tip Dergisi
 Mersin University Journal of the Faculty of Education
 Meta Analytics LLC
@@ -1072,6 +1131,7 @@ Mevlana Internationl Journal of Education
 Michael Joanna Publications
 Microbiology Society
 Milano University Press
+MIQOT Jurnal Ilmu ilmu Keislaman
 MM Publishers
 Modern Science Publishers
 Modestum Ltd
@@ -1088,15 +1148,19 @@ Mushroom Research Foundation
 Mutefekkir
 Mykolas Romeris University
 Naba'a Al-Hayat Foundation for Medical Sciences and Health Care
+Nabea Al-Ajyal Foundation press
 NADIA
 Nan Yang Academy of Sciences Pte Ltd
+Nanzan University
 Narodowy Instytut Muzeów
 NAS RA Academic Publications
 National Academy of Internal Affairs
 National Academy of Managerial Staff of Culture and Arts
+National Academy of Managerial Staff of Culture and Arts journals (Scientific Journals Publishing House)
 National Academy of Sciences of Ukraine (Co. LTD Ukrinformnauka) (Publications)
 National and University Library of the Republic of Srpska
 National Aviation University
+National Council for Scientific Research - Lebanon
 National Documentation Centre (EKT)
 National Environmentalists Association
 National Law School of India University
@@ -1127,7 +1191,7 @@ Newinera Publisher
 Nigde Universitesi Beden Egitimi ve Spor Bilimleri Dergisi
 Nizhnevartovsk State University
 Noble Research Publishers
-Non-profit partnership "Professional Association of Andrologists"
+Non-profit partnership "Professional Association of Andrologists
 Northern Arizona University College of Education
 Northern Institute
 Novos Estudos - CEBRAP
@@ -1161,6 +1225,7 @@ Organizacion de Estados Iberoamericanos
 Oriental Scientific Publishing Company
 Ormancilik Arastirma Dergisi
 OsloMet - Oslo Metropolitan University
+Osterreichische Akademie der Wissenschaften, Verlag
 OU Scientific Route
 Oxford University Press
 Ozcan Gungor
@@ -1177,6 +1242,7 @@ Pan African Medical Journal
 Pan American Association for the Promotion of Culture, Science and Education
 Pan Health Care Research Society
 Pandawa Institute
+Panstwowa Akademia Nauk Stosowanych im. ks. Bronislawa Markiewicza w Jaroslawiu
 Past Global Changes (PAGES)
 PCO Convin
 Pediatric Urology Case Reports
@@ -1190,6 +1256,7 @@ Penerbit Universiti Sains Malaysia
 Penerbit UTHM
 Penerbit UTM Press
 Pensoft Publishers
+Penza State University
 People and Global Business Association
 Pera Yayincilik Hizmetleri
 Pereiaslav-Khmelnytskyi Hryhorii Skovoroda State Pedagogical University (Scientific Journals Publishing House)
@@ -1209,6 +1276,7 @@ Pink Petals Publications Pvt Ltd
 PiscoMed Publishing Pte. Ltd.
 Plant Breeding and Acclimatization Institute - National Research Institute
 Platax
+PNRPU Publishing Office
 Polaris
 Polish Academy of Sciences Chancellery
 Polish Urological Association
@@ -1220,6 +1288,7 @@ Politeknik Ganesha
 Politeknik Harapan Bersama Tegal
 Politeknik Kesehatan Kemenkes Bandung
 Politeknik Negeri Jember
+Politeknik Negeri Padang
 Politeknik Negeri Semarang
 Polo de Capacitacion, Investigacion y Publicacion
 Polskie Towarzystwo Kardiologiczne
@@ -1229,6 +1298,7 @@ Pontifica Universidad Catolica de Valparaiso
 Pontifica Universidad Catolica del Ecuador
 Pontifica Universidade Catolica de Goias -PUC Goias
 Pontifical Catholic University of Sao Paulo (PUC-SP)
+Pontifical Universtiy of John Paul II in Krakow
 Pontificia Universidad Catolica de Chile
 Pontificia Universidade Catolica de Minas Gerais
 Pontificia Universidade Catolica do Parana - PUCPR
@@ -1280,6 +1350,7 @@ Rakenteiden mekaniikka
 Rasayan Journal of Chemistry
 Real Centro Universitario Escorial-Maria Cristina
 Real Economy Publishing
+Red & River Publications
 Redfame Publishing
 REF Press
 Refaad for Studies and Research
@@ -1289,6 +1360,7 @@ Research and Development Agency, Ministry of Home Affairs
 Research and Innovation Centre Pro-Akademia
 Research Centre of Industrial Problems of Development of NAS of Ukraine
 Research India Publications
+Research Institute for Knowledge Content Development & Technology
 Research Opinions in Animal and Veterinary Sciences
 Research Plus Journals
 Research Synergy Foundation
@@ -1296,18 +1368,20 @@ ResearchersLinks Ltd
 Reunir Revista de Administracao, Contabilidade e Sustentabilidade
 Review of the Faculty of Divinity of Amasya University
 Revija za socijalna politika, Faculty of Philosophy, Ss. Cyril and Methodius Skopje
+Revista Argentina de Anatomia Clinica (Universidad Nacional de Cordoba)
 Revista Biota Amazonia
 Revista Brasileira de Educacao em Ciencia da Informacao (REBECIN)
 Revista Brasileira de Educacao em Geografia
 Revista Brasileira de Energia
 Revista Brasileira de Geografia Fisica
+Revista Brasileira de Sociologia do Direito
 Revista Chilena de Neuropsicologia
 Revista Cientifica de la Facultad de Ciencias Veterinarias, Universidad del Zulia
 Revista Cientifica Hermes
 Revista Contabilidade Gestao e Governanca
-Revista Contextus Universidade Federal do Ceara
 Revista Critica
 Revista da FAEEBA
+Revista de Ciencia da Madeira
 Revista de Educacao Linguagem e Literatura - REVELLI
 Revista de Estudos e Pesquisas Sobre as Americas
 Revista de Gestao, Financas e Contabilidade
@@ -1317,6 +1391,8 @@ Revista de Studii Socio-Umane
 Revista Digital de Postgrado (Saber CDCH-UCV)
 Revista do Instituto Florestal
 Revista Electrónica de Investigación en Educación en Ciencias (REIEC)
+Revista Enfermagem Atual
+Revista Estudos Institucionais
 Revista Geotemas - Universidade do Estado do Rio Grande do Norte
 Revista Glauks - Departamento de Letras
 Revista Hipótese
@@ -1396,6 +1472,7 @@ Science Research Society
 ScienceOpen
 Scientia Socialis Ltd
 Scientific Center of Neurology
+Scientific Chronograph EOOD
 Scientific Foundation SPIROSKI
 Scientific Journals
 Scientific Publications Community Inc.
@@ -1409,6 +1486,7 @@ ScopeMed
 SDU International Journal of Educational Studies
 SDU Journal of Natural and Applied Sciences
 Secuencia
+Seed SRL
 Seismo Verlag
 Sekolah Tinggi Agama Islam At-Tahdzib
 Sekolah Tinggi Agama Islam Darul Ulum Banyuwangi
@@ -1434,6 +1512,7 @@ Signum Revista da ABREM
 SIIS - Centro de Documentacion y Estudios
 Silicea - Poligraf, LLC
 Sir Syed College of Education
+Siree Journals
 Sirnak Universitesi Ilahiyat Fakultesi Dergisi
 SISEF
 Sistema de Bibliotecas PUCP
@@ -1445,13 +1524,16 @@ Social Sciences Directory Limited
 Sociedad Andaluza de Medicina Legal y Ciencias Forenses
 Sociedad Cirugia del Uruguay
 Sociedad de Investigacion sobre Estudios Digitales S.C.
+Sociedad Espanola de Patologia Digestiva (SEPD)
 Sociedad Espanola para la Conservacion y Estudio de los Mamiferos
 Sociedad Geologica Mexicana
 Sociedad Peruana de Obstetricia y Ginecologia
 Sociedade Brasileira de Bioquimica e Biologia Molecular - SBBq
 Sociedade Brasileira de Cirurgia Cardiovascular
+Sociedade Brasileira de Computacao - SB
 Sociedade Brasileira de Educacao Matematica
 Sociedade Brasileira de Medicina de Familia e Comunidade
+Sociedade Brasileira de Proteção Radiológica - SBPR
 Sociedade Brasileira de Quimica (SBQ)
 Sociedade Brasileira de Sociologia
 Sociedade Civil Educacional Tuiuti Limitada
@@ -1461,6 +1543,7 @@ Societatea de Stiinte Juridice si Administrative
 Society for Healthcare & Research Development
 Society for Musicology in Ireland (SMI)
 Society for Research and Knowledge Management
+Society for Scientific Exploration
 Society for Sedimentary Geology
 Society for Social Studies of Science (4S)
 Society of Open Science
@@ -1507,6 +1590,7 @@ Stg ReAttach Therapy International Foundation
 STIKES Aisyah Pringsewu Lampung
 STKIP Singkawang
 STMIK Dharma Wacana
+STMIK Indonesia Padang
 Strategic Public Management Journal
 Studies and Scientific Researches. Economics Edition
 Suleyman Demirel Universitesi Egirdir Su Urunleri Fakultesi Dergisi
@@ -1518,6 +1602,7 @@ Suor Orsola Benincasa Università Editrice
 Svenska exegetiska sällskapet
 Svenska samfundet for musikforskning
 Symbiosis Group
+Symphony
 SynthesisHub  Advance Scientific Research
 Taiwan Association of Engineering and Technology Innovation
 Tambov State University - G.R. Derzhavin
@@ -1552,6 +1637,7 @@ The Dawn Publishers
 The European Association of Counselling Psychology
 The European Research Journal
 The Faculty of Law in Split
+The Fibreculture Journal
 The Foundation for Gender-Specific Medicine, Inc.
 The Higher Education Academy
 The Institute for Research and Community Services ITB
@@ -1568,11 +1654,11 @@ The Korean Movement Disorder Society
 The Korean Society for the History of Medicine
 The Korean Society of Veterinary Science
 The Learned Press
+The Millennium University
 The National Academy of Pediatric Science and Innovation
 The National and University Library of Iceland
 The National Federation of the Blind
 The Nencki Institute of Experimental Biology, Polish Academy of Sciences
-The Netherlands Press
 The Oceanography Society
 The Open Encyclopedia of Anthropology
 The Pedagogical University of Cracow/Uniwersytet Pedagogiczny w Krakowie
@@ -1630,12 +1716,12 @@ UIN Walisongo Semarang
 UINSI Samarinda
 UK Scientific Publishing Limited
 UK Zhende Publishing Limited Company
+Uludag University Journal of the Faculty of Engineering
 Uluslararasi Dil, Edebiyat ve Kultur Arastirmalari Dergisi
 Uluslararasi Insan Bilimleri Dergisi
 Uluslararasi Tarim ve Yaban Hayati Bilimleri Dergisi
 Uluslararasi Turkce Edebiyat Kultur Egitim (TEKE) Dergisi
 Uluslararasi Yonetim Bilisim Sistemleri ve Bilgisayar Bilimleri Dergisi
-Ulusoy Egitim Danismanlik Yayincilik Ve Organizasyon
 UNED - Universidad Nacional de Educacion a Distancia
 UNESP - Universidade Estdual Paulista
 Uniandrade Centro Universitario Campos de Andrade
@@ -1685,6 +1771,7 @@ Universidad de Los Hemisferios
 Universidad de Los Lagos, Chile
 Universidad de los Llanos
 Universidad de Manizales
+Universidad de Medellin
 Universidad de Navarra
 Universidad de Oviedo
 Universidad de San Buenaventura
@@ -1716,13 +1803,16 @@ Universidad Nacional del Litoral
 Universidad Nacional Mayor de San Marcos, Vicerectorado de Investigacion
 Universidad Nacional Santiago Antúnez de Mayolo
 Universidad Pablo de Olavide
+Universidad Pedagogica Experimental Libertador
 Universidad Pedagogica Nacional
 Universidad Pedagogica y Tecnologica de Colombia
 Universidad Peruana Union
 Universidad Politecnica de Guanajuato
 Universidad Pontificia Bolivariana
+Universidad Regional Autónoma de los Andes
 Universidad Simon Bolivar
 Universidad Tecnica de Ambato - Carrera de Medicina
+Universidad Tecnica de Cotopaxi
 Universidad Tecnica Estatal de Quevedo
 Universidade Alto Vale Do Rio Do Peixe - Uniarp
 Universidade Autonoma de Lisboa, EdiUal
@@ -1730,6 +1820,7 @@ Universidade Catolica de Santos
 Universidade Catolica Dom Bosco
 Universidade Catolica Portuguesa
 Universidade Caxias do Sul
+Universidade da Beira Interior
 Universidade de Evora
 Universidade de São Paulo. Agência de Bibliotecas e Coleções Digitais
 Universidade do Estado do Mato Grosso - UNEMAT
@@ -1744,6 +1835,7 @@ Universidade Estadual De Goias
 Universidade Estadual de Londrina
 Universidade Estadual de Maringa
 Universidade Estadual de Ponta Grossa
+Universidade Estadual do Ceará
 Universidade Estadual do Oeste do Parana - UNIOESTE
 Universidade Estadual do Parana - Unespar
 Universidade Estadual do Sudoeste da Bahia/Edicoes UESB
@@ -1763,6 +1855,7 @@ Universidade Federal de Santa Catarina
 Universidade Federal de Santa Maria
 Universidade Federal de São Carlos
 Universidade Federal de Sao Paulo
+Universidade Federal de Vicosa
 Universidade Federal do Espirito Santo
 Universidade Federal do Estado do Rio de Janeiro UNIRIO
 Universidade Federal do Maranhao
@@ -1815,12 +1908,15 @@ Universitas Merdeka Malang
 Universitas Muhammadiyah Jakarta
 Universitas Muhammadiyah Magelang
 Universitas Muhammadiyah Malang
+Universitas Muhammadiyah Mataram
+Universitas Muhammadiyah Ponorogo
 Universitas Muhammadiyah Pontianak
 Universitas Muhammadiyah Sidoarjo
 Universitas Muhammadiyah Surakarta
 Universitas Muhammadiyah Tangerang
 Universitas Muhammadiyah Yogyakarta
 Universitas Mulawarman
+Universitas Muria Kudus
 Universitas Nahdlatul Ulama Surabaya
 Universitas Negeri Jakarta
 Universitas Negeri Makassar
@@ -1839,7 +1935,6 @@ Universitas Pendidikan Indonesia Kampus Sumedang
 Universitas Pesantren Tinggi Darul Ulum (Unipdu)
 Universitas PGRI Madiun
 Universitas PGRI Mahadewa Indonesia
-Universitas PGRI Semarang
 Universitas PGRI Sumatera Barat
 Universitas Sebelas Maret
 Universitas Semarang
@@ -1863,6 +1958,7 @@ Universitatea Aurel Vlaicu - Facultatea de Educatie Fizica si Sport
 Universitatea Dunarea de Jos din Galati
 Universitatea Petrol-Gaze din Ploiesti
 Universitatea Stefan cel Mare din Suceava
+Universitatsverlag Gottingen
 Universite Catholique de Louvain
 Universite de Bordeaux
 Universite de Geneve - Antibody Reports
@@ -1904,6 +2000,7 @@ University of Montana, Maureen and Mike Mansfield Library
 University of Muhammadiyah Prof. Hamka (UHAMKA)
 University of Natural Resources and Life Sciences BOKU Vienna
 University of Nicosia (TEWT Journal)
+University of Nis
 University of Northampton
 University of Northern British Columbia
 University of Oklahoma Libraries
@@ -1919,6 +2016,7 @@ University of Santiago de Compostela
 University of Science and Technology, Yemen
 University of South Bohemia in Ceske Budejovice
 University of Sri Jayewardenepura
+University of St. Andrews Library
 University of Tartu
 University of Technology
 University of Technology, Sydney
@@ -1932,6 +2030,7 @@ University of Victoria Libraries
 University of Vigo
 University of Western Ontario, Western Libraries
 University of Westminster Press
+University of Wollongong Library
 University of Zadar
 University of Zagreb, Faculty of Forestry and Wood Technology
 University Service Publishing
@@ -1961,6 +2060,7 @@ Virtus Interpress
 Vladimir Andrunachievici Institute of Mathematics and Computer Science
 VM Media Group sp. z o.o
 Volgograd State University
+VostECO Ltd.
 VostokSibAcademCenter
 VRI Press
 VU E-Publishing
@@ -1982,7 +2082,9 @@ Wroclaw Medical University
 Yandy Scientific Press
 Yayasan Dharma Indonesia Tercinta (Dinasti)
 Yayasan Haiah Nusratul Islam
+Yayasan Nusantara Children of the Clouds
 Yayasan Pendidikan Startech
+Yayasan Sinergi Kawula Muda
 Yayasan Visi Intan Permata (Centrall)
 Yeshwantrao Chavan College of Engineering
 Zain Publications
