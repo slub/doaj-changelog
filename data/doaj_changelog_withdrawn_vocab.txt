@@ -1,6 +1,7 @@
 application form no info
 book reviews only
 Ceased publishing
+Ceased Publishing
 Ceased publishing, continued by 2164-9170
 Ceased publishing.
 Changed publisher
@@ -51,7 +52,6 @@ no answer
 No communication
 No editorial board
 No info on license
-No issue published in 2016
 no licence
 No licence
 No licence , peer review inadequate
@@ -78,8 +78,8 @@ No OA statement or licence
 no open access licensing description
 no open access licensing terms
 No open access licensing terms
+No response to call for UR
 Not a research journal
-Not complying to the BOAI
 not enough articles in 2016
 Not enough articles published
 Not in the issn database

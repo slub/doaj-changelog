@@ -1,15 +1,15 @@
 [
   {
     "Reason": "Journal not adhering to Best practice",
-    "Count": 2973
+    "Count": 2976
   },
   {
     "Reason": "Ceased publishing",
-    "Count": 978
+    "Count": 1000
   },
   {
     "Reason": "Journal not adhering to Best Practice",
-    "Count": 528
+    "Count": 629
   },
   {
     "Reason": "Web site URL no longer works",
@@ -17,7 +17,7 @@
   },
   {
     "Reason": "Website URL no longer works",
-    "Count": 327
+    "Count": 339
   },
   {
     "Reason": "Journal not adhering to best practice",
@@ -33,7 +33,7 @@
   },
   {
     "Reason": "Inactive (has not published in the last calendar year)",
-    "Count": 114
+    "Count": 117
   },
   {
     "Reason": "Has not published enough articles this calendar year",
@@ -76,15 +76,19 @@
     "Count": 10
   },
   {
-    "Reason": "No license",
-    "Count": 8
-  },
-  {
     "Reason": "no OA statement no licence",
     "Count": 8
   },
   {
+    "Reason": "No response to call for UR",
+    "Count": 8
+  },
+  {
     "Reason": "Journal is not open access",
+    "Count": 7
+  },
+  {
+    "Reason": "No license",
     "Count": 7
   },
   {
@@ -109,6 +113,10 @@
   },
   {
     "Reason": "has not published enough articles this calendar year",
+    "Count": 4
+  },
+  {
+    "Reason": "Inactive",
     "Count": 4
   },
   {
@@ -137,10 +145,6 @@
   },
   {
     "Reason": "Has not published enough articles this calendar year;",
-    "Count": 3
-  },
-  {
-    "Reason": "Inactive",
     "Count": 3
   },
   {
@@ -217,6 +221,10 @@
   },
   {
     "Reason": "book reviews only",
+    "Count": 1
+  },
+  {
+    "Reason": "Ceased Publishing",
     "Count": 1
   },
   {
@@ -316,10 +324,6 @@
     "Count": 1
   },
   {
-    "Reason": "No issue published in 2016",
-    "Count": 1
-  },
-  {
     "Reason": "No licence info",
     "Count": 1
   },
@@ -369,10 +373,6 @@
   },
   {
     "Reason": "Not a research journal",
-    "Count": 1
-  },
-  {
-    "Reason": "Not complying to the BOAI",
     "Count": 1
   },
   {
