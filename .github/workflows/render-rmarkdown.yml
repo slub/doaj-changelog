@@ -11,6 +11,7 @@ on:
         - 'docs/**'
         - 'data/**'
         - 'utils/render'
+        - 'utils/publish'
         - '.github/workflows/render-rmarkdown.yml'
         - 'renv.lock'
   workflow_dispatch:
@@ -38,6 +39,9 @@ jobs:
 
       - name: Build site
         run: utils/render
+
+      - name: Copy data
+        run: utils/publish
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
