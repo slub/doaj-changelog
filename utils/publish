@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 mkdir -p public/data
 cp -r -p data public
+cp -p .zenodo.json public/
