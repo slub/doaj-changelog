@@ -18,10 +18,10 @@ authors:
     email: donatus.herre@slub-dresden.de
     affiliation: SLUB Dresden
     orcid: 'https://orcid.org/0000-0003-4335-2535'
-#identifiers:
-#  - type: doi
-#    value: 10.5281/zenodo.12345678
-repository-code: 'https://github.com/slub/doaj-changelog'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15866633
+#repository-code: 'https://github.com/slub/doaj-changelog'
 #url: 'https://slub.github.io/doaj-changelog/'
 abstract: >-
   The change log showing journals that have been withdrawn
