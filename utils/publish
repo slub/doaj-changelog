@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 mkdir -p public
-cp -p data/doaj_changelog_withdrawn_list_enriched* public/
-cp -p .zenodo.json public/
+cp data/doaj_changelog_withdrawn_list_enriched* public/
+cp .zenodo.json public/
