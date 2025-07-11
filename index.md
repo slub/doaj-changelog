@@ -1,6 +1,6 @@
 ---
 title: "DOAJ Changelog"
-date: "2025-07-10"
+date: "2025-07-11"
 lang: "en-US"
 output:
   html_document:

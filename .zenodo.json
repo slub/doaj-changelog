@@ -1,0 +1,19 @@
+{
+    "title": "Journals withdrawn from DOAJ",
+    "description": "The change log showing journals that have been withdrawn from the Directory of Open Access Journals (DOAJ) does not contain any information on the publishers. The aim of this data set is to provide these.",
+    "upload_type": "dataset",
+    "creators": [
+        {
+            "orcid": "0000-0002-7280-5284",
+            "affiliation": "SLUB Dresden",
+            "name": "Wohlgemuth, Michael"
+        },
+        {
+            "orcid": "0000-0003-4335-2535",
+            "affiliation": "SLUB Dresden",
+            "name": "Herre, Donatus"
+        }
+    ],
+    "license": "cc-by-sa-4.0",
+    "keywords": ["DOAJ", "Crossref", "ISSN", "Academic Publishers", "Deindexation"]
+}
