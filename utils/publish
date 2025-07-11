@@ -2,3 +2,4 @@
 mkdir -p public
 cp data/doaj_changelog_withdrawn_list_enriched* public/
 cp .zenodo.json public/
+cp CITATION.cff public/
