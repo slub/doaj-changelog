@@ -5,13 +5,20 @@ lang: "en-US"
 output:
   html_document:
     mathjax: null
-    keep_md: true
+    keep_md: false
     df_print: paged
 ---
 ```{r setup, include=F}
 # nolint start: line_length_linter, commented_code_linter.
-knitr::opts_chunk$set(echo = FALSE, error = FALSE, message = FALSE, warning = FALSE)
-knitr::opts_knit$set(root.dir = "..")
+knitr::opts_chunk$set(
+  echo = FALSE,
+  error = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+knitr::opts_knit$set(
+  root.dir = ".."
+)
 ```
 
 ```{r source-remote, eval=F}
