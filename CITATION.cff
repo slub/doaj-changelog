@@ -21,8 +21,8 @@ authors:
 #identifiers:
 #  - type: doi
 #    value: 10.5281/zenodo.12345678
-repository-code: 'http://github.com/slub/doaj-changelog'
-#url: 'http://slub.github.io/doaj-changelog'
+repository-code: 'https://github.com/slub/doaj-changelog'
+#url: 'https://slub.github.io/doaj-changelog/'
 abstract: >-
   The change log showing journals that have been withdrawn
   from the Directory of Open Access Journals (DOAJ) does not
