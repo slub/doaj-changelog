@@ -1,0 +1,29 @@
+body {
+  color: #333333;
+}
+
+.title {
+  color: #333333;
+}
+
+h1 {
+  color: #cc0000;
+}
+
+h2, h3, h4, h5 {
+  color: #333333;
+}
+
+a {
+  color: #078078;
+}
+
+a {
+  color: #0d4b58;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #990000;
+  text-decoration: none;
+}
