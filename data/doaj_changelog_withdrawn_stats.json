@@ -5,11 +5,11 @@
   },
   {
     "Reason": "Ceased publishing",
-    "Count": 1002
+    "Count": 1019
   },
   {
     "Reason": "Journal not adhering to Best Practice",
-    "Count": 633
+    "Count": 698
   },
   {
     "Reason": "Web site URL no longer works",
@@ -17,7 +17,7 @@
   },
   {
     "Reason": "Website URL no longer works",
-    "Count": 342
+    "Count": 355
   },
   {
     "Reason": "Journal not adhering to best practice",
@@ -29,7 +29,7 @@
   },
   {
     "Reason": "Journal is no longer Open Access",
-    "Count": 130
+    "Count": 134
   },
   {
     "Reason": "Inactive (has not published in the last calendar year)",
@@ -37,11 +37,11 @@
   },
   {
     "Reason": "Has not published enough articles this calendar year",
-    "Count": 44
+    "Count": 46
   },
   {
     "Reason": "Changed publisher but hasn't supplied new URLs/site",
-    "Count": 34
+    "Count": 35
   },
   {
     "Reason": "no licence",
@@ -176,6 +176,10 @@
     "Count": 3
   },
   {
+    "Reason": "No response to call for UR.",
+    "Count": 3
+  },
+  {
     "Reason": "Publisher failed to respond to requests for information",
     "Count": 3
   },
@@ -197,6 +201,10 @@
   },
   {
     "Reason": "no OA and licence",
+    "Count": 2
+  },
+  {
+    "Reason": "No response to call for UR after transfer to new publisher",
     "Count": 2
   },
   {
